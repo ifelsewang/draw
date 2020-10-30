@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T01:55:47.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="R4DTKX8gn1z_D44g2mLl" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T08:21:43.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="cBvd2W5x6QgKRgBMMzde" version="13.8.6" type="github">
   <diagram id="hoXN_5f-QnAK9oNukd1p" name="Page-1">
-    <mxGraphModel dx="1709" dy="443" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="775" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="330" y="520" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ieDuyXSiWkt3uIqQupQF-30" value="医保/学费缴费服务获取代缴账单逻辑梳理&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#d5e8d4&quot;&gt;青色&lt;/font&gt;为现有逻辑，&lt;font color=&quot;#f8cecc&quot;&gt;红色&lt;/font&gt;为要增加的逻辑&lt;br&gt;&lt;br&gt;缴费管理端增加刷新按钮调用红色部分的逻辑&lt;br&gt;&lt;br&gt;缴费管理端增加异常订单按钮&lt;br&gt;&lt;br&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;定时任务只同步用户数据，不再同步账单数据&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;align=left;fontSize=16;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-63" y="530.5" width="336" height="232.5" as="geometry" />
+          <mxGeometry x="-63" y="530.5" width="336" height="253.5" as="geometry" />
         </mxCell>
         <mxCell id="ieDuyXSiWkt3uIqQupQF-45" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ieDuyXSiWkt3uIqQupQF-41" target="ieDuyXSiWkt3uIqQupQF-44" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -150,6 +150,12 @@
             <mxPoint x="648" y="770" as="sourcePoint" />
             <mxPoint x="634" y="975" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fc_w_g7skS-ZF89Aqzp7-1" value="问题：&lt;br&gt;1.取消、删除、作废分别是什么意思，接口是否会返回这些状态的数据&lt;br&gt;&lt;br&gt;&lt;br&gt;注意事项：&lt;br&gt;请求天财的txcode的列表做成可配置的&lt;br&gt;是否多个txcode？是否支持查询某一年的" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelBorderColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="865" width="511" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="Fc_w_g7skS-ZF89Aqzp7-2" value="是否单个txcode" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="923" y="490" width="119" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
