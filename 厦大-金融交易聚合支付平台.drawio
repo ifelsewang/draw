@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T06:51:48.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ZG2eqU_SmvQwAqio-xBK" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T06:53:11.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="uY46lL9FdCLEs_WowGkl" version="13.9.9" type="github">
   <diagram id="DybgV2dMm-oK95CopPqm" name="Page-1">
     <mxGraphModel dx="925" dy="2850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
             <mxPoint x="167.5" y="429" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xwB1ckmhTEfTMpIk9fc6-232" value="银联支付系统" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#CCCCCC;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="xwB1ckmhTEfTMpIk9fc6-232" value="银联综合支付平台" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#CCCCCC;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="121" y="507" width="163" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xwB1ckmhTEfTMpIk9fc6-238" value="其他三方支付系统" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#CCCCCC;fillColor=none;" vertex="1" parent="1">
