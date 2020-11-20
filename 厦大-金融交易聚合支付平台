@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T02:40:27.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ht6dLDKEVeNkkocvDGQp" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T02:43:08.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="McT5hld9eis0p9SC1f6g" version="13.9.9" type="github">
   <diagram id="DybgV2dMm-oK95CopPqm" name="Page-1">
-    <mxGraphModel dx="925" dy="512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="659" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T4yJkQ8KHL0_IrTnyPtb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T4yJkQ8KHL0_IrTnyPtb-2" value="金融交易聚合支付平台" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="224" y="275" width="196" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="T4yJkQ8KHL0_IrTnyPtb-3" value="对账管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241" y="307" width="69" height="19" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
