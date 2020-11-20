@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T08:09:37.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="MiEV5OVPgETXBoKAwKe9" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T08:25:03.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="mYckfgLbTe3dCVUFLoaz" version="13.9.9" type="github">
   <diagram id="DybgV2dMm-oK95CopPqm" name="Page-1">
-    <mxGraphModel dx="925" dy="1681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="1828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-27" value="没有收到前端通知" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-500" width="576" height="114" as="geometry" />
+        </mxCell>
         <mxCell id="xwB1ckmhTEfTMpIk9fc6-267" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="114" y="129" width="536" height="409" as="geometry" />
         </mxCell>
@@ -188,16 +191,16 @@
           <mxGeometry x="420" y="472" width="79" height="19" as="geometry" />
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="73" y="-986" width="100" height="496" as="geometry" />
+          <mxGeometry x="73" y="-986" width="100" height="621" as="geometry" />
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-2" value="综合缴费平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="248" y="-986" width="100" height="460" as="geometry" />
+          <mxGeometry x="248" y="-986" width="100" height="622" as="geometry" />
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-3" value="wap收银台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="424" y="-986" width="100" height="512" as="geometry" />
+          <mxGeometry x="424" y="-986" width="100" height="621" as="geometry" />
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-4" value="金融交易支付系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="597" y="-986" width="100" height="446" as="geometry" />
+          <mxGeometry x="597" y="-986" width="100" height="621" as="geometry" />
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-6" value="查询账单" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -226,14 +229,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKL8gyBiCPiRNHRH7Rql-15" value="生成账单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="zKL8gyBiCPiRNHRH7Rql-2" parent="1">
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-15" value="生成账单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0175" y="-16" relative="1" as="geometry">
-            <mxPoint x="299.5" y="-931" as="sourcePoint" />
+            <mxPoint x="299.5" y="-920" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="325" y="-931" />
-              <mxPoint x="325" y="-899" />
+              <mxPoint x="325" y="-920" />
+              <mxPoint x="325" y="-888" />
             </Array>
-            <mxPoint x="304.5" y="-911" as="targetPoint" />
+            <mxPoint x="298.0238095238094" y="-888" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -293,7 +296,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKL8gyBiCPiRNHRH7Rql-24" value="异步通知" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-24" value="异步通知" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="648.67" y="-585" as="sourcePoint" />
             <mxPoint x="299.3366666666664" y="-585" as="targetPoint" />
@@ -302,7 +305,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKL8gyBiCPiRNHRH7Rql-25" value="前端通知" style="endArrow=classic;html=1;" edge="1" parent="1" target="zKL8gyBiCPiRNHRH7Rql-1">
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-25" value="前端通知" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1" target="zKL8gyBiCPiRNHRH7Rql-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="645.33" y="-561" as="sourcePoint" />
             <mxPoint x="295.9966666666664" y="-561" as="targetPoint" />
@@ -310,6 +313,46 @@
               <mxPoint x="568.83" y="-561" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-28" value="交易查询" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.0106" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="123.99666666666644" y="-461" as="sourcePoint" />
+            <mxPoint x="296.8299999999997" y="-461" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="211.33" y="-461" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-30" value="交易查询" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297.9966666666666" y="-447" as="sourcePoint" />
+            <mxPoint x="644.9999999999999" y="-447" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385.33000000000004" y="-447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-32" value="返回交易结果" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645.33" y="-429" as="sourcePoint" />
+            <mxPoint x="295.9966666666664" y="-429" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568.83" y="-429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-33" value="展示交易结果" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296" y="-412" as="sourcePoint" />
+            <mxPoint x="121.00000000000011" y="-412" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="219.5" y="-412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-34" value="银联综合支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="757" y="-986" width="100" height="621" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
