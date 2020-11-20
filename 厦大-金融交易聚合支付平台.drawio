@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T10:00:59.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Ns0-EtzLdBr3DeSBEATb" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T11:56:24.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="HDKZnj7KDbrQFmi0rqWU" version="13.9.9" type="github">
   <diagram id="DybgV2dMm-oK95CopPqm" name="Page-1">
-    <mxGraphModel dx="2125" dy="2112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-82" value="支付结果不明确" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1373" y="-175" width="632" height="106" as="geometry" />
+        </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-27" value="没有收到前端通知" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1166" y="18" width="749" height="130" as="geometry" />
         </mxCell>
@@ -443,7 +446,7 @@
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-58" value="异步通知" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="745.67" y="-252" as="sourcePoint" />
-            <mxPoint x="396.3366666666661" y="-252" as="targetPoint" />
+            <mxPoint x="569" y="-252" as="targetPoint" />
             <Array as="points">
               <mxPoint x="669.1700000000001" y="-252" />
             </Array>
@@ -451,10 +454,10 @@
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-59" value="展示支付结果" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="741" y="-225" as="sourcePoint" />
-            <mxPoint x="218.9966666666669" y="-225" as="targetPoint" />
+            <mxPoint x="740" y="-235" as="sourcePoint" />
+            <mxPoint x="217.9966666666669" y="-235" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="665.1600000000001" y="-225" />
+              <mxPoint x="664.1600000000001" y="-235" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -550,9 +553,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKL8gyBiCPiRNHRH7Rql-82" value="支付结果不明确" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1344" y="-181" width="484" height="106" as="geometry" />
-        </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2084.5" y="240" as="sourcePoint" />
@@ -584,30 +584,30 @@
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-92" value="交易查询" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry x="0.0106" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1437.996666666666" y="-162" as="sourcePoint" />
-            <mxPoint x="1610.83" y="-162" as="targetPoint" />
+            <mxPoint x="1434.5" y="-156" as="sourcePoint" />
+            <mxPoint x="1787.83" y="-156" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1525.33" y="-162" />
+              <mxPoint x="1702.33" y="-156" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-93" value="调用查询订单接口" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry x="0.0106" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1614.996666666666" y="-143.71000000000004" as="sourcePoint" />
-            <mxPoint x="1787.83" y="-143.71000000000004" as="targetPoint" />
+            <mxPoint x="1791.996666666666" y="-137.71000000000004" as="sourcePoint" />
+            <mxPoint x="1964.83" y="-137.71000000000004" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1702.33" y="-143.71000000000004" />
+              <mxPoint x="1879.33" y="-137.71000000000004" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-94" value="返回订单状态" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1789" y="-113.71000000000004" as="sourcePoint" />
-            <mxPoint x="1614" y="-113.71000000000004" as="targetPoint" />
+            <mxPoint x="1966" y="-107.71000000000004" as="sourcePoint" />
+            <mxPoint x="1791" y="-107.71000000000004" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1712.5" y="-113.71000000000001" />
+              <mxPoint x="1889.5" y="-107.71000000000001" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -622,10 +622,10 @@
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-101" value="返回订单状态" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1612" y="-89.99999999999955" as="sourcePoint" />
-            <mxPoint x="1437" y="-89.99999999999955" as="targetPoint" />
+            <mxPoint x="1789" y="-83.99999999999955" as="sourcePoint" />
+            <mxPoint x="1434.5" y="-84" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1535.5" y="-90" />
+              <mxPoint x="1712.5" y="-84" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -640,7 +640,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKL8gyBiCPiRNHRH7Rql-104" value="请求支付" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-104" value="请求支付" style="endArrow=classic;html=1;" edge="1" parent="1" target="zKL8gyBiCPiRNHRH7Rql-86">
           <mxGeometry x="0.0106" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1436.996666666666" y="-270.9999999999998" as="sourcePoint" />
             <mxPoint x="1609.8299999999995" y="-270.9999999999998" as="targetPoint" />
@@ -652,24 +652,24 @@
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-105" value="调用提交刷卡支付接口" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry x="0.0106" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1611.9966666666664" y="-255" as="sourcePoint" />
-            <mxPoint x="1784.83" y="-255" as="targetPoint" />
+            <mxPoint x="1789.9966666666664" y="-252" as="sourcePoint" />
+            <mxPoint x="1962.83" y="-252" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1699.33" y="-255" />
+              <mxPoint x="1877.33" y="-252" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zKL8gyBiCPiRNHRH7Rql-106" value="返回支付结果" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1785.9999999999995" y="-227" as="sourcePoint" />
-            <mxPoint x="1610.9999999999995" y="-227" as="targetPoint" />
+            <mxPoint x="1963.9999999999995" y="-227" as="sourcePoint" />
+            <mxPoint x="1788.9999999999995" y="-227" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1709.5" y="-227" />
+              <mxPoint x="1887.5" y="-227" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zKL8gyBiCPiRNHRH7Rql-107" value="返回订单状态" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-107" value="返回订单状态" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1" source="zKL8gyBiCPiRNHRH7Rql-86">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1611" y="-207" as="sourcePoint" />
             <mxPoint x="1436" y="-207" as="targetPoint" />
@@ -717,6 +717,13 @@
             <Array as="points">
               <mxPoint x="1534.5" y="-365" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKL8gyBiCPiRNHRH7Rql-118" value="异步通知" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568.66" y="-205" as="sourcePoint" />
+            <mxPoint x="394.9966666666657" y="-205" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
