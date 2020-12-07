@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T05:14:33.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="13.10.8" etag="9Xs-qZLiVzJ_nrAL-LPi" type="github"><diagram id="Sioa80J8r_JVRjIU-a6Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-07T05:48:23.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="R7BIGzSpJxXARWcPU_Uu" version="13.10.8" type="github">
+  <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
+    <mxGraphModel dx="666" dy="2936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-1" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="673" y="-2388" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-2" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="959" y="-2388" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-3" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="-2388" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Q-zQrgqXcNni66PcAH7A-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="-2304" as="sourcePoint" />
+            <mxPoint x="872.5" y="-2304" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="941" y="-2304" />
+              <mxPoint x="941" y="-2304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-9" value="请求核身" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-zQrgqXcNni66PcAH7A-8">
+          <mxGeometry x="-0.1181" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-10" value="paywayid、付款码" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontStyle=2;labelBorderColor=none;html=1;fontColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="802" y="-2300" width="104" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="899" y="-1556" width="265" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-24" value="判断二维码类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" target="Q-zQrgqXcNni66PcAH7A-2" parent="1">
+          <mxGeometry x="-1" y="-26" relative="1" as="geometry">
+            <mxPoint x="1016" y="-2286" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1047" y="-2286" />
+              <mxPoint x="1047" y="-2233" />
+            </Array>
+            <mxPoint x="1021" y="-2266" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-25" value="请求银联接口获取三方用户标识" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="1" y="-60" relative="1" as="geometry">
+            <mxPoint x="1016.67" y="-2205" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1047.67" y="-2205" />
+              <mxPoint x="1047.67" y="-2152" />
+            </Array>
+            <mxPoint x="1015.3366666666667" y="-2152" as="targetPoint" />
+            <mxPoint x="-54" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
