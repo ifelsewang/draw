@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T05:51:52.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4LAHRYudlR1Bb97ipq1x" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T06:01:47.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="G-HbX1o-GmLZOdW5emih" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
-    <mxGraphModel dx="666" dy="2936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="3156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,16 +45,8 @@
             <mxPoint x="-15" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-25" value="请求银联接口获取三方用户标识" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" parent="1">
-          <mxGeometry x="1" y="-60" relative="1" as="geometry">
-            <mxPoint x="1016.67" y="-2205" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1047.67" y="-2205" />
-              <mxPoint x="1047.67" y="-2152" />
-            </Array>
-            <mxPoint x="1015.3366666666667" y="-2152" as="targetPoint" />
-            <mxPoint x="-54" y="34" as="offset" />
-          </mxGeometry>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-27" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1531" y="-2388" width="112" height="589" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
