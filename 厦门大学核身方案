@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T07:03:42.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="6nYl01AO0lV1pObusrx_" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T07:52:51.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="_hqKcRVPi1pUDwNQ3uk5" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
-    <mxGraphModel dx="482" dy="3643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="3843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,12 +61,12 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-38" value="判断二维码类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" parent="1">
           <mxGeometry x="-1" y="-30" relative="1" as="geometry">
-            <mxPoint x="1220.33" y="-3042" as="sourcePoint" />
+            <mxPoint x="1221.33" y="-3043" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1251.33" y="-3042" />
-              <mxPoint x="1251.33" y="-2989" />
+              <mxPoint x="1252.33" y="-3043" />
+              <mxPoint x="1252.33" y="-2990" />
             </Array>
-            <mxPoint x="1218.9966666666667" y="-2989" as="targetPoint" />
+            <mxPoint x="1219.9966666666667" y="-2990" as="targetPoint" />
             <mxPoint x="-15" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -121,7 +121,7 @@
           <mxGeometry x="953" y="-2698" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-54" value="微信码核身" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="781" y="-3199" width="688" height="30" as="geometry" />
+          <mxGeometry x="781" y="-3199" width="689" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
