@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T08:33:56.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Oik0VzJ_o9-gcmw0ugyK" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T08:34:38.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="8xP73HkmQNZCBkDhJPYJ" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
     <mxGraphModel dx="666" dy="3916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="DT（或公共数据中心?）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="DT（或公共数据中心?）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1165" y="-3162" width="112" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;verticalAlign=middle;" edge="1" parent="1" source="Q-zQrgqXcNni66PcAH7A-28" target="Q-zQrgqXcNni66PcAH7A-29">
@@ -22,19 +22,19 @@
             <mxPoint x="-5.3" y="-2.71" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-28" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-28" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="781" y="-3162" width="112" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-29" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-29" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="973" y="-3162" width="112" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1029.150344827586" y="-3025.9955172413793" as="sourcePoint" />
-            <mxPoint x="1412.84" y="-3026.03" as="targetPoint" />
+            <mxPoint x="1029.150344827586" y="-3020.9955172413793" as="sourcePoint" />
+            <mxPoint x="1412.84" y="-3021.03" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1173.34" y="-3026.03" />
-              <mxPoint x="1173.34" y="-3026.03" />
+              <mxPoint x="1173.34" y="-3021.03" />
+              <mxPoint x="1173.34" y="-3021.03" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,43 +45,43 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-42" value="返回三方用户标识" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1412.34" y="-2985.03" as="sourcePoint" />
-            <mxPoint x="1029.150344827586" y="-2985.03" as="targetPoint" />
+            <mxPoint x="1412.34" y="-2980.03" as="sourcePoint" />
+            <mxPoint x="1029.150344827586" y="-2980.03" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1138.34" y="-2985.03" />
-              <mxPoint x="1138.34" y="-2985.03" />
+              <mxPoint x="1138.34" y="-2980.03" />
+              <mxPoint x="1138.34" y="-2980.03" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1357" y="-3162" width="112" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="881" y="-3093" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-41" value="二维码、二维码类型、subappid|支付宝学校编号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1147.34" y="-3025.03" width="154.66" height="22" as="geometry" />
+          <mxGeometry x="1147.34" y="-3020.03" width="154.66" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-43" value="subopenid|一卡通号|用户信息散列值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1147.34" y="-2979.03" width="152" height="16" as="geometry" />
+          <mxGeometry x="1147.34" y="-2974.03" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-44" value="获取用户身份信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1029.5000000000002" y="-2897" as="sourcePoint" />
-            <mxPoint x="1221.4999999999998" y="-2897" as="targetPoint" />
+            <mxPoint x="1029.5000000000002" y="-2891" as="sourcePoint" />
+            <mxPoint x="1221.4999999999998" y="-2891" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1159" y="-2897" />
-              <mxPoint x="1159" y="-2897" />
+              <mxPoint x="1159" y="-2891" />
+              <mxPoint x="1159" y="-2891" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1221.5000000000002" y="-2847" as="sourcePoint" />
-            <mxPoint x="1029.5" y="-2847" as="targetPoint" />
+            <mxPoint x="1221.5000000000002" y="-2841" as="sourcePoint" />
+            <mxPoint x="1029.5" y="-2841" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1097" y="-2847" />
-              <mxPoint x="1097" y="-2847" />
+              <mxPoint x="1097" y="-2841" />
+              <mxPoint x="1097" y="-2841" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -91,10 +91,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-47" value="学校编号、三方编号、&lt;br&gt;subopenid|一卡通号|用户信息散列值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="1049.5" y="-2885.03" width="152" height="16" as="geometry" />
+          <mxGeometry x="1049.5" y="-2879.03" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-49" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-2843" width="152" height="16" as="geometry" />
+          <mxGeometry x="1040" y="-2837" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-52" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" edge="1" parent="1">
           <mxGeometry x="0.0131" relative="1" as="geometry">
@@ -109,9 +109,6 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="学工号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="852.5" y="-2748" width="152" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-54" value="微信码核身" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="781" y="-3199" width="689" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-55" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2080" y="-3162" width="112" height="500" as="geometry" />
