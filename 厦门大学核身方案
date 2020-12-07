@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T05:48:23.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="R7BIGzSpJxXARWcPU_Uu" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T05:51:52.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4LAHRYudlR1Bb97ipq1x" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
     <mxGraphModel dx="666" dy="2936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,14 +35,14 @@
           <mxGeometry x="899" y="-1556" width="265" height="334" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-24" value="判断二维码类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" target="Q-zQrgqXcNni66PcAH7A-2" parent="1">
-          <mxGeometry x="-1" y="-26" relative="1" as="geometry">
+          <mxGeometry x="-1" y="-29" relative="1" as="geometry">
             <mxPoint x="1016" y="-2286" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1047" y="-2286" />
               <mxPoint x="1047" y="-2233" />
             </Array>
             <mxPoint x="1021" y="-2266" as="targetPoint" />
-            <mxPoint x="-1" as="offset" />
+            <mxPoint x="-15" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-25" value="请求银联接口获取三方用户标识" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" parent="1">
