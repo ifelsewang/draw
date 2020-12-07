@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T08:06:59.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="0SKdcrZAJJ0hELw9K04R" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T08:07:16.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="XqtSNu-JG-zMKRHIB-Px" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
     <mxGraphModel dx="666" dy="3736" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,12 +61,12 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-38" value="判断二维码类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" parent="1">
           <mxGeometry x="-1" y="-30" relative="1" as="geometry">
-            <mxPoint x="1028.33" y="-3064" as="sourcePoint" />
+            <mxPoint x="1029.33" y="-3058" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1059.33" y="-3064" />
-              <mxPoint x="1059.33" y="-3011" />
+              <mxPoint x="1060.33" y="-3058" />
+              <mxPoint x="1060.33" y="-3005" />
             </Array>
-            <mxPoint x="1026.9966666666667" y="-3011" as="targetPoint" />
+            <mxPoint x="1027.9966666666667" y="-3005" as="targetPoint" />
             <mxPoint x="-15" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
