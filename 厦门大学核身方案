@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T06:01:47.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="G-HbX1o-GmLZOdW5emih" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T06:19:15.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="98UwHqbj7H3j74M6MS-L" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
-    <mxGraphModel dx="1105" dy="3156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="209" dy="3506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,6 +47,63 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-27" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1531" y="-2388" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;exitX=0.508;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Q-zQrgqXcNni66PcAH7A-28" target="Q-zQrgqXcNni66PcAH7A-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836.3235294117644" y="-2894.5" as="sourcePoint" />
+            <mxPoint x="1028.5" y="-2894.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1138" y="-3081" />
+              <mxPoint x="1138" y="-3081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-36" value="请求核身" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="Q-zQrgqXcNni66PcAH7A-30">
+          <mxGeometry x="0.0267" y="-1" relative="1" as="geometry">
+            <mxPoint x="-5.3" y="-2.71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-28" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="781" y="-3162" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-29" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="973" y="-3162" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;" edge="1" parent="1" source="Q-zQrgqXcNni66PcAH7A-31" target="Q-zQrgqXcNni66PcAH7A-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1288" y="-2977" />
+              <mxPoint x="1288" y="-2977" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-40" value="请求核身" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="Q-zQrgqXcNni66PcAH7A-39">
+          <mxGeometry x="0.0784" y="3" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="-3162" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1357" y="-3162" width="112" height="589" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="984" y="-3081" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-38" value="判断二维码类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="-29" relative="1" as="geometry">
+            <mxPoint x="1220.33" y="-3061" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1251.33" y="-3061" />
+              <mxPoint x="1251.33" y="-3008" />
+            </Array>
+            <mxPoint x="1218.9966666666667" y="-3008" as="targetPoint" />
+            <mxPoint x="-15" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-41" value="二维码、二维码类型&lt;br style=&quot;font-size: 8px&quot;&gt;[subopenid或支付宝学校编号]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1240" y="-2977" width="152" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
