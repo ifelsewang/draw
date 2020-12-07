@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T08:39:17.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="F57U7q3TLUh_1sZYnE9e" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T08:47:56.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="jBHI-3d0uPqmqCB9SML7" version="13.10.8" type="github">
   <diagram id="Sioa80J8r_JVRjIU-a6Q" name="第 1 页">
-    <mxGraphModel dx="666" dy="3916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="3764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1357" y="-3162" width="112" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="881" y="-3093" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-41" value="二维码、二维码类型、subappid|支付宝学校编号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
@@ -77,11 +77,11 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1221.5000000000002" y="-2841" as="sourcePoint" />
-            <mxPoint x="1029.5" y="-2841" as="targetPoint" />
+            <mxPoint x="1221.5000000000002" y="-2836" as="sourcePoint" />
+            <mxPoint x="1029.5" y="-2836" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1097" y="-2841" />
-              <mxPoint x="1097" y="-2841" />
+              <mxPoint x="1097" y="-2836" />
+              <mxPoint x="1097" y="-2836" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,11 +90,11 @@
             <mxPoint x="-1.7763568394002505e-15" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-47" value="学校编号、三方编号、&lt;br&gt;subopenid|一卡通号|用户信息散列值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="1049.5" y="-2879.03" width="152" height="16" as="geometry" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-47" value="学校编号、三方编号、&lt;br&gt;subopenid|一卡通号|用户信息散列值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1049.5" y="-2877" width="152" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-49" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-2837" width="152" height="16" as="geometry" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-49" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1039" y="-2831" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-52" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" edge="1" parent="1">
           <mxGeometry x="0.0131" relative="1" as="geometry">
@@ -107,7 +107,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="学工号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="学工号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="852.5" y="-2748" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-76" value="备注：&lt;br&gt;1、一卡通用户数据保存在DT还是公共数据中心？&lt;br&gt;2、银联码返回的是用户信息散列值，所以一卡通用户信息需要计算散列值并保存&lt;br&gt;3、支付宝码核身银联返回的一卡通号是学工号还是物理卡号？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;strokeColor=#d6b656;fontSize=14;fillColor=#fff2cc;align=left;verticalAlign=top;" vertex="1" parent="1">
