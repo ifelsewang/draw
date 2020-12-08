@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T10:36:27.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ZW0HP6G1VVrxxLz2j8wv" version="13.10.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-08T02:20:00.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="jEmkUKOJ3HpQhfzhVen2" version="13.10.9" type="github" pages="2">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
-    <mxGraphModel dx="2479" dy="2188" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2479" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -730,7 +730,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="核身方案" id="zqKTm7wav68fdyJW1Eh4">
-    <mxGraphModel dx="879" dy="3788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="666" dy="3764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -840,8 +840,8 @@
         <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="学工号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="852.5" y="-2748" width="152" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-76" value="备注：&lt;br&gt;1、一卡通用户数据保存在DT还是公共数据中心？&lt;br&gt;2、银联码返回的是用户信息散列值，所以一卡通用户信息需要计算散列值并保存&lt;br&gt;3、支付宝码核身银联返回的一卡通号是学工号还是物理卡号？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;strokeColor=#d6b656;fontSize=14;fillColor=#fff2cc;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="685" y="-3020.03" width="316" height="125" as="geometry" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-76" value="备注：&lt;br&gt;1、一卡通用户数据保存在DT还是公共数据中心？&lt;br&gt;2、银联码返回的是用户信息散列值，所以一卡通用户信息需要计算散列值并保存&lt;br&gt;3、支付宝码核身银联返回的一卡通号是学工号还是物理卡号？&lt;br&gt;4、DT没有根据三方用户标识获取用户学工号的接口？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;strokeColor=#d6b656;fontSize=14;fillColor=#fff2cc;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="669" y="-3020.03" width="316" height="166.03" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
