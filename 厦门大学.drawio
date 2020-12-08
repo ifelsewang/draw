@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T03:38:58.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="zcB0md9T7RIO0Ck_U47B" version="13.10.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-08T03:40:15.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Zx0m7KMd07kHk8DDUjV7" version="13.10.9" type="github" pages="2">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
     <mxGraphModel dx="2479" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -866,8 +866,8 @@
         <mxCell id="xBJP_5Ue3mvzY2de2lxV-9" value="支付宝码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="775" y="-2685" width="555.5" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-10" value="待和银联进一步确认？？？" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="969" y="-2663.5" width="151" height="20" as="geometry" />
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-10" value="待和银联进一步确认&lt;br&gt;（一卡通号是学工号还是物理卡号？）" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="943" y="-2666.75" width="200" height="26.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
