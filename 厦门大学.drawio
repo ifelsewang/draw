@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T02:20:00.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="jEmkUKOJ3HpQhfzhVen2" version="13.10.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-08T02:51:39.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="vIfjaw_vLZS7pybJRiMx" version="13.10.9" type="github" pages="2">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
     <mxGraphModel dx="2479" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -784,7 +784,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1357" y="-3162" width="112" height="450" as="geometry" />
+          <mxGeometry x="1359" y="-3161" width="112" height="450" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="881" y="-3093" width="95" height="20" as="geometry" />
