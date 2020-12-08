@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T03:35:33.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="5QtyjKEZI-sK3g-QQxgi" version="13.10.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-08T03:37:11.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NLXpdNgMpMvVb08FmTXB" version="13.10.9" type="github" pages="2">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
     <mxGraphModel dx="2479" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -735,7 +735,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1165" y="-3162" width="112" height="490" as="geometry" />
+          <mxGeometry x="1165" y="-3162" width="112" height="580" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;verticalAlign=middle;" parent="1" source="Q-zQrgqXcNni66PcAH7A-28" target="Q-zQrgqXcNni66PcAH7A-29" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -753,10 +753,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-28" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="781" y="-3162" width="112" height="490" as="geometry" />
+          <mxGeometry x="781" y="-3162" width="112" height="580" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-29" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="973" y="-3162" width="112" height="490" as="geometry" />
+          <mxGeometry x="973" y="-3162" width="112" height="580" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -784,7 +784,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1359" y="-3161" width="112" height="490" as="geometry" />
+          <mxGeometry x="1359" y="-3161" width="112" height="580" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="881" y="-3093" width="95" height="20" as="geometry" />
@@ -862,6 +862,9 @@
         </mxCell>
         <mxCell id="xBJP_5Ue3mvzY2de2lxV-3" value="银联码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="775" y="-2941" width="555.5" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-9" value="支付宝码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-2685" width="555.5" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
