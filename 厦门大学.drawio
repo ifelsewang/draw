@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T03:21:13.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="0nduab0At9C5sFa7HDZ1" version="13.10.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-08T03:34:34.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="maKezmwwyAIH4tRPuKT3" version="13.10.9" type="github" pages="2">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
     <mxGraphModel dx="2479" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -730,12 +730,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="核身方案" id="zqKTm7wav68fdyJW1Eh4">
-    <mxGraphModel dx="666" dy="3764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="666" dy="4164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="DT还是公共数据中心?" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1165" y="-3162" width="112" height="450" as="geometry" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="-3162" width="112" height="490" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;verticalAlign=middle;" parent="1" source="Q-zQrgqXcNni66PcAH7A-28" target="Q-zQrgqXcNni66PcAH7A-29" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -753,10 +753,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-28" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="781" y="-3162" width="112" height="451" as="geometry" />
+          <mxGeometry x="781" y="-3162" width="112" height="490" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-29" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="973" y="-3162" width="112" height="450" as="geometry" />
+          <mxGeometry x="973" y="-3162" width="112" height="490" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -784,7 +784,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-33" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1359" y="-3161" width="112" height="450" as="geometry" />
+          <mxGeometry x="1359" y="-3161" width="112" height="490" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-37" value="paywayid、二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="881" y="-3093" width="95" height="20" as="geometry" />
@@ -797,21 +797,21 @@
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-44" value="获取用户身份信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1029.5000000000002" y="-2891" as="sourcePoint" />
-            <mxPoint x="1221.4999999999998" y="-2891" as="targetPoint" />
+            <mxPoint x="1030.0000000000002" y="-2822" as="sourcePoint" />
+            <mxPoint x="1221.9999999999998" y="-2822" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1159" y="-2891" />
-              <mxPoint x="1159" y="-2891" />
+              <mxPoint x="1159.5" y="-2822" />
+              <mxPoint x="1159.5" y="-2822" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#B3B3B3;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1221.5000000000002" y="-2836" as="sourcePoint" />
-            <mxPoint x="1029.5" y="-2836" as="targetPoint" />
+            <mxPoint x="1222.0000000000002" y="-2767" as="sourcePoint" />
+            <mxPoint x="1030" y="-2767" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1097" y="-2836" />
-              <mxPoint x="1097" y="-2836" />
+              <mxPoint x="1097.5" y="-2767" />
+              <mxPoint x="1097.5" y="-2767" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -820,28 +820,48 @@
             <mxPoint x="-1.7763568394002505e-15" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-47" value="学校编号、三方编号、&lt;br&gt;subopenid|一卡通号|用户信息散列值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1049.5" y="-2877" width="152" height="16" as="geometry" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-47" value="学校编号、三方编号、openid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="-2808" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-49" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1039" y="-2831" width="152" height="16" as="geometry" />
+          <mxGeometry x="1039.5" y="-2762" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-52" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" parent="1" edge="1">
           <mxGeometry x="0.0131" relative="1" as="geometry">
-            <mxPoint x="1028.5" y="-2756" as="sourcePoint" />
-            <mxPoint x="838" y="-2756" as="targetPoint" />
+            <mxPoint x="1028.5" y="-2911" as="sourcePoint" />
+            <mxPoint x="838" y="-2911" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1002" y="-2756" />
-              <mxPoint x="1002" y="-2756" />
+              <mxPoint x="1002" y="-2911" />
+              <mxPoint x="1002" y="-2911" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="学工号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="852.5" y="-2748" width="152" height="16" as="geometry" />
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="用户信息hash值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="852.5" y="-2902" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-76" value="备注：&lt;br&gt;1、支付宝码核身银联返回的一卡通号是学工号还是物理卡号？&lt;br&gt;2、DT没有根据三方用户标识获取用户学工号的接口？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;strokeColor=#d6b656;fontSize=14;fillColor=#fff2cc;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="669" y="-3020.03" width="316" height="112.03" as="geometry" />
+          <mxGeometry x="517" y="-3289" width="316" height="112.03" as="geometry" />
+        </mxCell>
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-4" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.0131" relative="1" as="geometry">
+            <mxPoint x="1027.5" y="-2744" as="sourcePoint" />
+            <mxPoint x="837" y="-2744" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1001" y="-2744" />
+              <mxPoint x="1001" y="-2744" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-5" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="851.5" y="-2735" width="152" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-6" value="微信码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-2844" width="555.5" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-3" value="银联码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-2951" width="555.5" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
