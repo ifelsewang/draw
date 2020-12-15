@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T06:21:25.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NgiImr8P0BKmVCnSOxfz" version="13.10.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-15T01:43:50.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="MQw5ufsIiMzsulWepr14" version="14.0.1" type="github" pages="3">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
-    <mxGraphModel dx="2479" dy="2277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="2112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -730,17 +730,17 @@
     </mxGraphModel>
   </diagram>
   <diagram name="核身方案" id="zqKTm7wav68fdyJW1Eh4">
-    <mxGraphModel dx="666" dy="4164" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="371" dy="4027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-6" value="微信码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-6" value="微信码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" parent="1" vertex="1">
           <mxGeometry x="775" y="-2844" width="555.5" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-3" value="银联码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-3" value="银联码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;fillColor=#E6FFCC;strokeColor=#B3B3B3;" parent="1" vertex="1">
           <mxGeometry x="775" y="-2941" width="555.5" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-9" value="支付宝码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" vertex="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-9" value="支付宝码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" parent="1" vertex="1">
           <mxGeometry x="775" y="-2685" width="555.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-31" value="DT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -846,13 +846,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="用户信息hash值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="Q-zQrgqXcNni66PcAH7A-53" value="学工号|hash值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="852.5" y="-2892" width="152" height="16" as="geometry" />
         </mxCell>
         <mxCell id="Q-zQrgqXcNni66PcAH7A-76" value="备注：&lt;br&gt;1、支付宝码核身银联返回的一卡通号是学工号还是物理卡号？&lt;br&gt;2、DT没有根据三方用户标识获取用户学工号的接口？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;strokeColor=#d6b656;fontSize=14;fillColor=#fff2cc;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="775" y="-3394" width="316" height="112.03" as="geometry" />
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-4" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" edge="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-4" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" parent="1" edge="1">
           <mxGeometry x="0.0131" relative="1" as="geometry">
             <mxPoint x="1027.5" y="-2744" as="sourcePoint" />
             <mxPoint x="837" y="-2744" as="targetPoint" />
@@ -863,13 +863,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-5" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-5" value="学工号、姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="851.5" y="-2735" width="152" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-10" value="待和银联进一步确认&lt;br&gt;（一卡通号是学工号还是物理卡号？）" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-10" value="待和银联进一步确认&lt;br&gt;（一卡通号是学工号还是物理卡号？）" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="943" y="-2666.75" width="200" height="29.75" as="geometry" />
         </mxCell>
-        <mxCell id="xBJP_5Ue3mvzY2de2lxV-11" value="银联聚合反扫核身流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="xBJP_5Ue3mvzY2de2lxV-11" value="银联聚合反扫核身流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="781" y="-3190" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
