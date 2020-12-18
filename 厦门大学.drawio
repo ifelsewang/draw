@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T01:45:38.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="zpKygU5XIphw44tFtKsN" version="14.0.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-18T03:37:35.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ugy4tvjM8Y82PXdF1jgC" version="14.0.1" type="github" pages="3">
   <diagram id="DybgV2dMm-oK95CopPqm" name="标书画图">
-    <mxGraphModel dx="2125" dy="2112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3332" dy="2728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -729,11 +729,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="核身方案" id="zqKTm7wav68fdyJW1Eh4">
-    <mxGraphModel dx="371" dy="4027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+  <diagram name="一期需求" id="zqKTm7wav68fdyJW1Eh4">
+    <mxGraphModel dx="879" dy="5077" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pcRD8LiX77kpORbWio1C-9" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="996" y="-4138" width="624" height="383" as="geometry" />
+        </mxCell>
         <mxCell id="xBJP_5Ue3mvzY2de2lxV-6" value="微信码核身" style="shape=umlFrame;whiteSpace=wrap;html=1;width=102;height=22;shadow=0;fillColor=#E6FFCC;strokeColor=#B3B3B3;" parent="1" vertex="1">
           <mxGeometry x="775" y="-2743" width="555.5" height="135" as="geometry" />
         </mxCell>
@@ -869,7 +872,7 @@
         <mxCell id="xBJP_5Ue3mvzY2de2lxV-11" value="银联聚合反扫核身流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="781" y="-3190" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0yXCsYPJa96d_ALAP4yA-1" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" edge="1" parent="1">
+        <mxCell id="0yXCsYPJa96d_ALAP4yA-1" value="返回三方用户信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;fontColor=#000000;dashed=1;" parent="1" edge="1">
           <mxGeometry x="0.0131" relative="1" as="geometry">
             <mxPoint x="1028.25" y="-2803" as="sourcePoint" />
             <mxPoint x="837.75" y="-2803" as="targetPoint" />
@@ -880,8 +883,53 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0yXCsYPJa96d_ALAP4yA-2" value="一卡通号（学工号）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="0yXCsYPJa96d_ALAP4yA-2" value="一卡通号（学工号）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#B3B3B3;fontStyle=2;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="852.25" y="-2794" width="152" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732" y="-4138" width="181" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-2" value="反扫消费+核身" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-4111" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-3" value="产品需求池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="781" y="-4167" width="77.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;正扫银联静态码支付&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-4052" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;微信小程序&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-3993" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;云闪付小程序&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-3932" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-7" value="&lt;font style=&quot;font-size: 12px&quot;&gt;捐款应用对接&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-3870" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;常工电费&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-3807" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-10" value="消费功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010.34" y="-3971" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-11" value="银联码核身&lt;br&gt;微信码核身&lt;br&gt;支付宝码核身" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="-4115" width="137" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-12" value="缴费功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010.34" y="-3900" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pcRD8LiX77kpORbWio1C-7" target="pcRD8LiX77kpORbWio1C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-14" value="支付功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010.34" y="-3936" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-17" value="需求的功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1172" y="-4179" width="77.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pcRD8LiX77kpORbWio1C-22" value="银联码消费&lt;br&gt;微信码消费&lt;br&gt;支付宝码消费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="-4058" width="137" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
