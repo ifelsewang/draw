@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T08:43:06.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="A7i8V0B4QvDFERWgp8Vi" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T08:47:52.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NBzeXAh8N-UGE0KqdfgA" version="14.2.5" type="github">
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="第 1 页">
-    <mxGraphModel dx="2305" dy="2971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="2825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="-427" y="-1927" width="501" height="83" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-4" value="银标码平台&lt;br&gt;（待开发）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-16" y="-1732" width="100" height="650" as="geometry" />
+          <mxGeometry x="-16" y="-1732" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-141" y="-1732" width="20" height="645" as="geometry" />
+          <mxGeometry x="-141" y="-1732" width="20" height="840" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-19" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="jKk9GUnsr1qx0T2jTbNI-6" source="jKk9GUnsr1qx0T2jTbNI-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -25,13 +25,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-7" value="扫码系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
-          <mxGeometry x="155" y="-1732" width="100" height="695" as="geometry" />
+          <mxGeometry x="155" y="-1732" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-8" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
-          <mxGeometry x="329" y="-1732" width="100" height="690" as="geometry" />
+          <mxGeometry x="329" y="-1732" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-9" value="银联平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
-          <mxGeometry x="503" y="-1732" width="100" height="728" as="geometry" />
+          <mxGeometry x="503" y="-1732" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-21" value="" style="endArrow=classic;html=1;fontSize=8;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -237,6 +237,77 @@
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-57" value="通知成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-56">
           <mxGeometry x="0.0996" y="1" relative="1" as="geometry">
             <mxPoint x="16.440000000000005" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-58" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="554.0000000000005" y="-948" as="sourcePoint" />
+            <mxPoint x="35.976666666666745" y="-948" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="393.5" y="-948" />
+              <mxPoint x="265.5" y="-948" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-59" value="交易结果通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-58">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="-54.099999999999994" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-60" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="554" y="-1058" as="sourcePoint" />
+            <mxPoint x="379.18666666666644" y="-1058" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="428.5" y="-1058" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-61" value="交易结果通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-60">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="-20.33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-62" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380.90999999999997" y="-1037" as="sourcePoint" />
+            <mxPoint x="206.0966666666665" y="-1037" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="255.41" y="-1037" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-63" value="交易结果通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-62">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="-15.739999999999998" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-64" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="554" y="-1058" as="sourcePoint" />
+            <mxPoint x="379.1866666666665" y="-1058" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="428.5" y="-1058" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-65" value="交易结果通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-64">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="-20.33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-66" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1" source="jKk9GUnsr1qx0T2jTbNI-4" target="jKk9GUnsr1qx0T2jTbNI-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="31" y="-928" as="sourcePoint" />
+            <mxPoint x="-128" y="-928" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-83.50000000000006" y="-928" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-67" value="交易结果通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-66">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="-15.739999999999998" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
