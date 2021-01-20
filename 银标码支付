@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T08:47:52.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="NBzeXAh8N-UGE0KqdfgA" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T08:48:37.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="2bfDiLjjDOomHNOo4ECq" version="14.2.5" type="github">
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="第 1 页">
-    <mxGraphModel dx="2079" dy="2825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1866" dy="2688" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-24" value="扫描付款码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-23">
           <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="-54.099999999999994" y="-2" as="offset" />
+            <mxPoint x="-33.83" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-25" value="" style="endArrow=classic;html=1;fontSize=8;dashed=1;" edge="1" parent="1">
@@ -70,7 +70,7 @@
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-26" value="返回付款码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="jKk9GUnsr1qx0T2jTbNI-25">
           <mxGeometry x="0.0996" y="1" relative="1" as="geometry">
-            <mxPoint x="-38.3" y="-1" as="offset" />
+            <mxPoint x="-19.429999999999996" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-27" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
@@ -103,11 +103,11 @@
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-33" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="553.1900000000003" y="-1345" as="sourcePoint" />
-            <mxPoint x="35.16666666666674" y="-1345" as="targetPoint" />
+            <mxPoint x="553.1900000000003" y="-1363" as="sourcePoint" />
+            <mxPoint x="35.16666666666674" y="-1363" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="392.69" y="-1345" />
-              <mxPoint x="264.69" y="-1345" />
+              <mxPoint x="392.69" y="-1363" />
+              <mxPoint x="264.69" y="-1363" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -118,10 +118,10 @@
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-35" value="" style="endArrow=classic;html=1;fontSize=8;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="36.496666666666755" y="-1324" as="sourcePoint" />
-            <mxPoint x="554" y="-1324" as="targetPoint" />
+            <mxPoint x="36.496666666666755" y="-1342" as="sourcePoint" />
+            <mxPoint x="554" y="-1342" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="282.83000000000004" y="-1324" />
+              <mxPoint x="282.83000000000004" y="-1342" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-37" value="需要等待解码异步通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=3;labelBackgroundColor=#CCCCCC;fontColor=#EA6B66;" vertex="1" parent="1">
-          <mxGeometry x="231" y="-1318" width="125" height="15" as="geometry" />
+          <mxGeometry x="231" y="-1336" width="125" height="15" as="geometry" />
         </mxCell>
         <mxCell id="jKk9GUnsr1qx0T2jTbNI-38" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
