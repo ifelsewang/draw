@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T06:18:08.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="-LZ7Kwm4gEIuREWj-JXK" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T08:00:38.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="heVHBCfW-qnHDKqYNpCU" version="14.2.5" type="github">
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="第 1 页">
-    <mxGraphModel dx="1279" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="2643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jKk9GUnsr1qx0T2jTbNI-1" value="备注&lt;br&gt;1、银标码需要支持离线消费，离线消费需要考虑垫资方案和信用管理&lt;br&gt;2、银标码需要提供统一解码规范，支持三方pos解码和消费&lt;br&gt;3、小额免密，大额校验密码&lt;br&gt;4、后续对账处理问题" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-427" y="-1927" width="501" height="83" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
