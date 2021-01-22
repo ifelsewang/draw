@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T03:05:23.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="hMvcKDeVl8hsgHqO6yB9" version="14.2.5" type="github">
-  <diagram id="zt8E12P2ZnfXUWHaBwW5" name="第 1 页">
-    <mxGraphModel dx="2079" dy="2643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-01-22T06:09:21.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="oyCR3dyNV_Htcwav5-hu" version="14.2.5" type="github" pages="2">
+  <diagram id="zt8E12P2ZnfXUWHaBwW5" name="银标码消费时序图">
+    <mxGraphModel dx="2079" dy="2643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -348,6 +348,41 @@
           <mxGeometry x="-0.1848" relative="1" as="geometry">
             <mxPoint x="38.97" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YbTBWKwzjzLmf_S2jIMC" name="银标码消费流程图">
+    <mxGraphModel dx="1279" dy="1843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+      <root>
+        <mxCell id="I00duScWUbYDADdbwRoU-0" />
+        <mxCell id="I00duScWUbYDADdbwRoU-1" parent="I00duScWUbYDADdbwRoU-0" />
+        <mxCell id="I00duScWUbYDADdbwRoU-2" value="小程序平台" style="swimlane;shadow=1;strokeColor=#CCCCCC;strokeWidth=2;html=1;labelBorderColor=none;startSize=28;fontSize=18;fillColor=#CCCCCC;perimeterSpacing=0;opacity=20;swimlaneLine=1;glass=0;rounded=0;sketch=0;" vertex="1" parent="I00duScWUbYDADdbwRoU-1">
+          <mxGeometry x="148" y="-972" width="386" height="634" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-14" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=18;strokeWidth=1;glass=0;sketch=0;" vertex="1" parent="I00duScWUbYDADdbwRoU-2">
+          <mxGeometry x="120" y="239.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-8" value="二维码平台" style="swimlane;shadow=1;strokeColor=#CCCCCC;strokeWidth=2;html=1;labelBorderColor=none;startSize=28;fontSize=18;fillColor=#CCCCCC;perimeterSpacing=0;opacity=20;swimlaneLine=1;glass=0;rounded=0;sketch=0;" vertex="1" parent="I00duScWUbYDADdbwRoU-1">
+          <mxGeometry x="550" y="-972" width="840" height="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-10" value="用户是否&lt;br&gt;开通二维码" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=18;strokeWidth=1;glass=0;sketch=0;" vertex="1" parent="I00duScWUbYDADdbwRoU-8">
+          <mxGeometry x="94" y="228" width="139" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-12" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=18;strokeWidth=1;glass=0;sketch=0;" vertex="1" parent="I00duScWUbYDADdbwRoU-8">
+          <mxGeometry x="113" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="I00duScWUbYDADdbwRoU-8" source="I00duScWUbYDADdbwRoU-10" target="I00duScWUbYDADdbwRoU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="I00duScWUbYDADdbwRoU-1" source="I00duScWUbYDADdbwRoU-6" target="I00duScWUbYDADdbwRoU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-6" value="申请二维码" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="I00duScWUbYDADdbwRoU-1">
+          <mxGeometry x="274" y="-863" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I00duScWUbYDADdbwRoU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="I00duScWUbYDADdbwRoU-1" source="I00duScWUbYDADdbwRoU-10" target="I00duScWUbYDADdbwRoU-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
