@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T08:53:20.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="nyCvJKs6G8WKHsIHlmLg" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-04T08:57:26.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="U-BQEFlgg88hrQN0bftZ" version="14.2.9" type="github" pages="2">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2627" dy="3319" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,11 +130,17 @@
         <mxCell id="otQaW6dza2H-V2-Hi-XT-61" value="绑定银行卡" style="whiteSpace=wrap;html=1;shadow=0;fontSize=18;strokeWidth=1;glass=0;sketch=0;" vertex="1" parent="W0xMbHACyFrrcBkM5rXC-1">
           <mxGeometry x="694" y="144" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XArTotoU6jHAVUE4ldep-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W0xMbHACyFrrcBkM5rXC-1" source="rNIe5ZyEPwkk7l6T93rX-0" target="XArTotoU6jHAVUE4ldep-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rNIe5ZyEPwkk7l6T93rX-0" value="展示绑卡结果" style="whiteSpace=wrap;html=1;shadow=0;fontSize=18;strokeWidth=1;glass=0;sketch=0;" vertex="1" parent="W0xMbHACyFrrcBkM5rXC-1">
           <mxGeometry x="12" y="144" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cd5MQw6HlBDFm-KSmwwl-0" value="&lt;font style=&quot;font-size: 22px&quot;&gt;1、怎么保证绑定的银行卡是本人的？&lt;br&gt;2、小额免密支付&lt;br&gt;3、信用管理&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;fillColor=#FFFF33;" vertex="1" parent="W0xMbHACyFrrcBkM5rXC-1">
           <mxGeometry x="-69" y="-1366" width="475" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="XArTotoU6jHAVUE4ldep-1" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="W0xMbHACyFrrcBkM5rXC-1">
+          <mxGeometry x="22" y="262" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
