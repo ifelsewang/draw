@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T01:45:53.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="6jn8fsL3LACvFt21Jr7F" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T05:27:38.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="1Q4KhPi3YtD4Pyg-Whw6" version="14.2.9" type="github">
   <diagram id="N7OwT9m2dsukp8Jp87yz" name="禅道使用流程">
-    <mxGraphModel dx="1905" dy="1156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1905" dy="1092" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,6 +41,11 @@
         </mxCell>
         <mxCell id="AfVCbo9N13q7Mz-4bMtp-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" edge="1" parent="1" source="AfVCbo9N13q7Mz-4bMtp-17" target="AfVCbo9N13q7Mz-4bMtp-37">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfVCbo9N13q7Mz-4bMtp-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;fontSize=18;fillColor=#dae8fc;" edge="1" parent="1" source="AfVCbo9N13q7Mz-4bMtp-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="-90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AfVCbo9N13q7Mz-4bMtp-17" value="需求是否合理" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="408" y="96" width="80" height="80" as="geometry" />
@@ -204,6 +209,9 @@
         </mxCell>
         <mxCell id="AfVCbo9N13q7Mz-4bMtp-81" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="178" y="1584" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AfVCbo9N13q7Mz-4bMtp-107" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="466" y="-149" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
