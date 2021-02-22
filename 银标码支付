@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T02:56:19.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Yrf9agwNZ4N511kIn4XR" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-22T03:00:10.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="zQJcApuJdIovLLxRspE4" version="14.4.2" type="github" pages="2">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -607,10 +607,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-38" value="判断用户是否超出单人限额" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="799" y="231" width="120" height="60" as="geometry" />
+          <mxGeometry x="824" y="231" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-40" target="zlN0M0Ohj2z4-EJKqRZj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-46" value="未&lt;br&gt;超&lt;br&gt;出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlN0M0Ohj2z4-EJKqRZj-45">
+          <mxGeometry x="0.151" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4.79" y="-3" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-40" value="判断学校垫资是否超出限额" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="799" y="391" width="120" height="60" as="geometry" />
+          <mxGeometry x="822" y="391" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-43" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1036" y="391" width="120" height="60" as="geometry" />
