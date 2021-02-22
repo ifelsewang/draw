@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T03:00:10.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="zQJcApuJdIovLLxRspE4" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-22T03:01:34.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="lTNZOWVAa9C6e_wrtjgY" version="14.4.2" type="github" pages="2">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
           <mxGeometry width="154.57" height="81" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-34" value="允许消费" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-24" target="zlN0M0Ohj2z4-EJKqRZj-35">
-          <mxGeometry x="-0.325" relative="1" as="geometry">
+          <mxGeometry x="-0.1228" relative="1" as="geometry">
             <mxPoint x="1096" y="244" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
