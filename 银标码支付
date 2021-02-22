@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T03:28:28.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="SbCi7kyy9ADAR9Cd9lM6" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-22T03:34:23.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="JwSKGKCkBCioom9HKgjd" version="14.4.2" type="github" pages="2">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -632,7 +632,7 @@
             <mxPoint x="-4.79" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-43" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-43" value="拼装请求支付平台的参数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1036" y="389" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-47" value="提示不允许消费" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -666,6 +666,9 @@
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-52" value="学校垫资金额是否超出限额" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="827.5" y="379" width="109" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-60" value="二维码使用" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="301" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
