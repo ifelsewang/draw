@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T07:36:10.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="VlhCGfNnH9NEhcook-SV" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:59:19.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="FN4NoUB1i6xnEYnkoPQ_" version="14.4.3" type="github" pages="5">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,8 +161,27 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="zt8E12P2ZnfXUWHaBwW5" name="申码/消费流程">
-    <mxGraphModel dx="2932" dy="3072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+  <diagram id="Z8XzefTM1co00psRDwLC" name="开通二维码流程">
+    <mxGraphModel dx="925" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="RRoieKpAI0uU7xTUb8-V-0" />
+        <mxCell id="RRoieKpAI0uU7xTUb8-V-1" parent="RRoieKpAI0uU7xTUb8-V-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qdVWqBjzjHuEkrwfcqXE" name="手机端离线消费">
+    <mxGraphModel dx="925" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="oTXGynDsioWtGolhR3lh-0" />
+        <mxCell id="oTXGynDsioWtGolhR3lh-1" parent="oTXGynDsioWtGolhR3lh-0" />
+        <mxCell id="oTXGynDsioWtGolhR3lh-4" value="不一定要做，因为云闪付离线后无法打开小程序" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=#ffffff;fontSize=7;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="oTXGynDsioWtGolhR3lh-1">
+          <mxGeometry x="280" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zt8E12P2ZnfXUWHaBwW5" name="终端离线消费">
+    <mxGraphModel dx="2342" dy="2797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -789,6 +808,14 @@
         <mxCell id="aNa_d4kWj5LVLhnSrzGs-22" value="提示二维码已过期" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-85" y="388" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dQN0Om_QTvOZ5nhdp9Eg" name="关闭二维码流程">
+    <mxGraphModel dx="925" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cHe1AzRbkB923RylcveX-0" />
+        <mxCell id="cHe1AzRbkB923RylcveX-1" parent="cHe1AzRbkB923RylcveX-0" />
       </root>
     </mxGraphModel>
   </diagram>
