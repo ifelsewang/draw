@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T01:27:12.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="d_ejKA6o8rfaUMomC8HE" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-26T06:35:55.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="OAIsVRlHWbgPmqvLRlqA" version="14.4.3" type="github" pages="2">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
-    <mxGraphModel dx="2079" dy="2988" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="W0xMbHACyFrrcBkM5rXC-0" />
         <mxCell id="W0xMbHACyFrrcBkM5rXC-1" parent="W0xMbHACyFrrcBkM5rXC-0" />
@@ -162,7 +162,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="申码/消费流程">
-    <mxGraphModel dx="1682" dy="2569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="2643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,7 +511,7 @@
             <mxPoint x="38.97" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-1" target="Df8T0WVofJQ3alPUkqsw-3">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-1" target="Df8T0WVofJQ3alPUkqsw-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-1" value="点击申请付款码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -654,7 +654,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-51" value="判断未结算金额是否超出限额" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-51" value="判断用户未清算金额是否透支" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="875.5" y="780" width="109" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-52" target="zlN0M0Ohj2z4-EJKqRZj-47" edge="1">
@@ -682,7 +682,7 @@
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-64" value="支付平台" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFF33;" parent="1" vertex="1">
           <mxGeometry x="1852" y="-169" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-65" target="Df8T0WVofJQ3alPUkqsw-12">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-65" target="Df8T0WVofJQ3alPUkqsw-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-65" value="获取请求参数" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -700,24 +700,24 @@
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-71" value="解码得到银标码和用户id" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1852" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-6" value="已绑卡" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Df8T0WVofJQ3alPUkqsw-3" target="zlN0M0Ohj2z4-EJKqRZj-2">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-6" value="已绑卡" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Df8T0WVofJQ3alPUkqsw-3" target="zlN0M0Ohj2z4-EJKqRZj-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-14.000000000000227" y="-34" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-10" value="未绑卡" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Df8T0WVofJQ3alPUkqsw-3" target="Df8T0WVofJQ3alPUkqsw-9">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-10" value="未绑卡" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Df8T0WVofJQ3alPUkqsw-3" target="Df8T0WVofJQ3alPUkqsw-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-3" value="是否已绑卡" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-3" value="是否已绑卡" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-151" y="-119" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-9" value="跳转绑卡页面" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-9" value="跳转绑卡页面" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-171" y="13" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Df8T0WVofJQ3alPUkqsw-12" target="zlN0M0Ohj2z4-EJKqRZj-69">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Df8T0WVofJQ3alPUkqsw-12" target="zlN0M0Ohj2z4-EJKqRZj-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Df8T0WVofJQ3alPUkqsw-12" value="生成订单" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Df8T0WVofJQ3alPUkqsw-12" value="生成订单" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1852" y="1212" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
