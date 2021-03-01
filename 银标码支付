@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T01:04:20.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="U2u6gv7SCaCByMN8gtmO" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-01T01:38:22.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Ya6bl6N9X1vTToRicEd8" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="在线消费">
-    <mxGraphModel dx="1866" dy="2536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="2454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,32 +282,43 @@
           <mxGeometry x="195.5" width="154.57" height="81" as="geometry" />
         </mxCell>
         <mxCell id="aNa_d4kWj5LVLhnSrzGs-33" value="" style="group;container=1;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="459" y="-87" width="293" height="286" as="geometry" />
-        </mxCell>
-        <mxCell id="aNa_d4kWj5LVLhnSrzGs-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;生成二维码&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="aNa_d4kWj5LVLhnSrzGs-33" vertex="1">
-          <mxGeometry y="-4" width="293" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-2" value="调用DT接口获取用户身份、用户id" style="whiteSpace=wrap;html=1;rounded=0;" parent="aNa_d4kWj5LVLhnSrzGs-33" vertex="1">
-          <mxGeometry x="165" y="34" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-11" value="将加密后的字符串生成二维码" style="whiteSpace=wrap;html=1;rounded=0;" parent="aNa_d4kWj5LVLhnSrzGs-33" vertex="1">
-          <mxGeometry x="10" y="127" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aNa_d4kWj5LVLhnSrzGs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="aNa_d4kWj5LVLhnSrzGs-33" source="aNa_d4kWj5LVLhnSrzGs-8" target="zlN0M0Ohj2z4-EJKqRZj-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aNa_d4kWj5LVLhnSrzGs-8" value="从header中获取accessToken参数" style="whiteSpace=wrap;html=1;rounded=0;" parent="aNa_d4kWj5LVLhnSrzGs-33" vertex="1">
-          <mxGeometry x="10" y="34" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aNa_d4kWj5LVLhnSrzGs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="aNa_d4kWj5LVLhnSrzGs-33" source="aNa_d4kWj5LVLhnSrzGs-11" target="zlN0M0Ohj2z4-EJKqRZj-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="137" y="157" as="targetPoint" />
+          <mxGeometry x="459" y="-87" width="293" height="286" as="geometry">
+            <mxRectangle x="459" y="-87" width="50" height="44" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNa_d4kWj5LVLhnSrzGs-11" value="&lt;span style=&quot;font-size: 13.3333px&quot;&gt;将用户id和用户身份拼接成字符串并编码&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="aNa_d4kWj5LVLhnSrzGs-33" vertex="1">
-          <mxGeometry x="165" y="127" width="120" height="60" as="geometry" />
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-7" value="" style="group" vertex="1" connectable="0" parent="aNa_d4kWj5LVLhnSrzGs-33">
+          <mxGeometry x="-3" y="-32" width="293" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="aNa_d4kWj5LVLhnSrzGs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="aNa_d4kWj5LVLhnSrzGs-33" source="zlN0M0Ohj2z4-EJKqRZj-2" target="aNa_d4kWj5LVLhnSrzGs-11" edge="1">
+        <mxCell id="aNa_d4kWj5LVLhnSrzGs-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;生成二维码&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1s_wQAsNJPnwVsy4PgPN-7" vertex="1">
+          <mxGeometry width="293" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-2" value="调用DT接口获取用户信息" style="whiteSpace=wrap;html=1;rounded=0;" parent="1s_wQAsNJPnwVsy4PgPN-7" vertex="1">
+          <mxGeometry x="165" y="38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlN0M0Ohj2z4-EJKqRZj-11" value="将加密后的字符串生成二维码" style="whiteSpace=wrap;html=1;rounded=0;" parent="1s_wQAsNJPnwVsy4PgPN-7" vertex="1">
+          <mxGeometry x="10" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNa_d4kWj5LVLhnSrzGs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1s_wQAsNJPnwVsy4PgPN-7" source="aNa_d4kWj5LVLhnSrzGs-8" target="zlN0M0Ohj2z4-EJKqRZj-2" edge="1">
+          <mxGeometry x="459" y="-87" as="geometry" />
+        </mxCell>
+        <mxCell id="aNa_d4kWj5LVLhnSrzGs-8" value="从header中获取用户id" style="whiteSpace=wrap;html=1;rounded=0;" parent="1s_wQAsNJPnwVsy4PgPN-7" vertex="1">
+          <mxGeometry x="10" y="38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNa_d4kWj5LVLhnSrzGs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1s_wQAsNJPnwVsy4PgPN-7" source="aNa_d4kWj5LVLhnSrzGs-11" target="zlN0M0Ohj2z4-EJKqRZj-11" edge="1">
+          <mxGeometry x="459" y="-87" as="geometry">
+            <mxPoint x="137" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aNa_d4kWj5LVLhnSrzGs-11" value="保存用户信息到二维码表，生成二维码id" style="whiteSpace=wrap;html=1;rounded=0;" parent="1s_wQAsNJPnwVsy4PgPN-7" vertex="1">
+          <mxGeometry x="165" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNa_d4kWj5LVLhnSrzGs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1s_wQAsNJPnwVsy4PgPN-7" source="zlN0M0Ohj2z4-EJKqRZj-2" target="aNa_d4kWj5LVLhnSrzGs-11" edge="1">
+          <mxGeometry x="459" y="-87" as="geometry" />
+        </mxCell>
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-8" value="将二维码id、身份id进行签名" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aNa_d4kWj5LVLhnSrzGs-33">
+          <mxGeometry x="162" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aNa_d4kWj5LVLhnSrzGs-33" source="aNa_d4kWj5LVLhnSrzGs-11" target="1s_wQAsNJPnwVsy4PgPN-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aNa_d4kWj5LVLhnSrzGs-34" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -799,14 +810,29 @@
         <mxCell id="1s_wQAsNJPnwVsy4PgPN-4" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="832" y="-654" width="100" height="1826" as="geometry" />
         </mxCell>
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1s_wQAsNJPnwVsy4PgPN-10" target="1s_wQAsNJPnwVsy4PgPN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-10" value="拼接二维码有效期" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1s_wQAsNJPnwVsy4PgPN-8" target="1s_wQAsNJPnwVsy4PgPN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1s_wQAsNJPnwVsy4PgPN-12" value="签名、编码" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="277" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="1279" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="659" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
+        <mxCell id="wN8wcaf93pPSTi8n3Y7r-1" value="判断是否已开通消费码" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFF33;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="113" y="376" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
