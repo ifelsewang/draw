@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T09:19:33.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="8Cr45WGtY1ANCdZEqH83" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T09:19:51.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="bkAE6Yy72j84-mMxExCZ" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -584,7 +584,7 @@
           <mxGeometry x="-60" y="-457" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-6" value="二维码平台" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFF33;" parent="1" vertex="1">
-          <mxGeometry x="581" y="-507" width="120" height="60" as="geometry" />
+          <mxGeometry x="554" y="-457" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-11" target="zlN0M0Ohj2z4-EJKqRZj-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -593,7 +593,7 @@
           <mxGeometry x="187" y="204" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-15" value="扫码消费系统" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFF33;" parent="1" vertex="1">
-          <mxGeometry x="1117" y="-480" width="120" height="60" as="geometry" />
+          <mxGeometry x="1088" y="-457" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zlN0M0Ohj2z4-EJKqRZj-17" target="zlN0M0Ohj2z4-EJKqRZj-13" edge="1">
           <mxGeometry relative="1" as="geometry">
