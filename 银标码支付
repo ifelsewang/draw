@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T02:56:00.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="6Si2sifwkcya6eQuYQgE" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T03:09:23.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="zJVXmwXtEZ-nGmfzszcT" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="2479" dy="1259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1931" dy="891" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
@@ -1035,6 +1035,33 @@
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-52" value="终端在线下发名单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;align=center;strokeColor=#36393d;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
           <mxGeometry x="-846" y="238" width="712" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-53" value="终端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="-705" y="317" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-54" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="-356" y="317" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-60" value="请求下发名单、身份等参数" style="endArrow=classic;html=1;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="At-z8mnW7qdWp5F7dJBA-53" target="At-z8mnW7qdWp5F7dJBA-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-816" y="480" as="sourcePoint" />
+            <mxPoint x="-766" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-557" y="438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-61" value="下发用户信息和身份、黑名单、离线单笔交易限额、&lt;br&gt;离线交易次数限制、学校垫资金额是否超限" style="endArrow=classic;html=1;strokeColor=#000000;dashed=1;dashPattern=1 1;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="At-z8mnW7qdWp5F7dJBA-54" target="At-z8mnW7qdWp5F7dJBA-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-375" y="526" as="sourcePoint" />
+            <mxPoint x="-325" y="476" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-551" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-65" value="定时轮询" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=9;align=center;width=142;height=20;strokeColor=#B3B3B3;fillColor=#E6E6E6;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="-664" y="383" width="378" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
