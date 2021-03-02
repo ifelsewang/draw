@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T06:49:51.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ZZv_uvh11vRLGCKvCmIw" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T09:18:50.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="HrcPY2p-WoT4oUsEMweU" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="1931" dy="891" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3027" dy="1627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
@@ -1029,15 +1029,6 @@
         <mxCell id="At-z8mnW7qdWp5F7dJBA-26" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
           <mxGeometry x="238.5" y="532" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="At-z8mnW7qdWp5F7dJBA-51" value="" style="group" vertex="1" connectable="0" parent="IIGmqgG02G0fsnOqU6as-1">
-          <mxGeometry x="397" y="276" width="211" height="101" as="geometry" />
-        </mxCell>
-        <mxCell id="QZqIXBl7zP9bRritWz_l-0" value="解析二维码" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-51">
-          <mxGeometry y="41" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QZqIXBl7zP9bRritWz_l-2" value="&lt;span style=&quot;font-size: 13.3333px&quot;&gt;获得用户身份、二维码id、二维码有效期、是否绑卡&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#FFFF33;position2=0.25;align=left;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-51">
-          <mxGeometry x="91" width="120" height="78" as="geometry" />
-        </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-52" value="终端在线下发名单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;align=center;strokeColor=#36393d;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
           <mxGeometry x="-846" y="238" width="712" height="22" as="geometry" />
         </mxCell>
@@ -1068,17 +1059,11 @@
         <mxCell id="At-z8mnW7qdWp5F7dJBA-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=9;fontColor=#E6E6E6;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="At-z8mnW7qdWp5F7dJBA-67" target="At-z8mnW7qdWp5F7dJBA-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="At-z8mnW7qdWp5F7dJBA-67" value="&lt;font color=&quot;#000000&quot;&gt;获取终端请求参数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#E6E6E6;align=center;fillColor=#FFFFFF;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
-          <mxGeometry x="979" y="327" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-69" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;fontColor=#E6E6E6;rounded=0;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="At-z8mnW7qdWp5F7dJBA-68" target="At-z8mnW7qdWp5F7dJBA-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-68" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
           <mxGeometry x="828" y="327" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="At-z8mnW7qdWp5F7dJBA-70" value="&lt;font color=&quot;#000000&quot;&gt;二维码id、身份id&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#000000;fontSize=9;fontColor=#E6E6E6;align=center;fillColor=#FFFF33;position2=0.17;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
-          <mxGeometry x="1078" y="289" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=9;fontColor=#000000;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="At-z8mnW7qdWp5F7dJBA-71" target="At-z8mnW7qdWp5F7dJBA-73">
           <mxGeometry relative="1" as="geometry" />
@@ -1149,6 +1134,24 @@
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-111" value="加入定时任务，等待轮询" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;fillColor=#FFFF33;fontSize=9;fontColor=#000000;align=center;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
           <mxGeometry x="770" y="822" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-112" value="" style="group" vertex="1" connectable="0" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="397" y="276" width="211" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="QZqIXBl7zP9bRritWz_l-0" value="解析二维码" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-112">
+          <mxGeometry y="41" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QZqIXBl7zP9bRritWz_l-2" value="&lt;span style=&quot;font-size: 13.3333px&quot;&gt;获得用户身份、二维码id、二维码有效期、是否绑卡&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f5f5f5;position2=0.25;align=left;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-112">
+          <mxGeometry x="91" width="120" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-113" value="" style="group" vertex="1" connectable="0" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="979" y="289" width="219" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-67" value="&lt;font color=&quot;#000000&quot;&gt;获取终端请求参数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#E6E6E6;align=center;fillColor=#FFFFFF;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-113">
+          <mxGeometry y="38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-70" value="&lt;font color=&quot;#000000&quot;&gt;二维码id、身份id&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#666666;fontSize=9;fontColor=#333333;align=center;fillColor=#f5f5f5;position2=0.17;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-113">
+          <mxGeometry x="99" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
