@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T03:23:43.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="K3xRL-eMRYPwQCOZJMkI" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T06:17:24.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="bufl7XV3DDEd3L-0vonY" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="2082" dy="992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1626" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
@@ -846,7 +846,9 @@
           <mxGeometry x="46.5" y="317" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="At-z8mnW7qdWp5F7dJBA-20" target="At-z8mnW7qdWp5F7dJBA-0">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="0.1304" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xDcMaMkhiMwbG7-Vdo6f-3" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="xDcMaMkhiMwbG7-Vdo6f-0" target="xDcMaMkhiMwbG7-Vdo6f-2">
           <mxGeometry relative="1" as="geometry" />
