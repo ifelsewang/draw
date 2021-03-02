@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T01:15:05.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4PHjYbW6kl5Im_xYHwnz" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T01:15:43.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Xbm8zLor3s-hv82Sg5a-" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -890,7 +890,7 @@
           <mxGeometry x="213" y="748" width="126" height="80" as="geometry" />
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-7" value="用户累计未结算&lt;br&gt;金额是否超限" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
-          <mxGeometry x="215" y="1271" width="121" height="80" as="geometry" />
+          <mxGeometry x="215" y="1253" width="121" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
