@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T02:50:37.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="bIxxMukg-KjJnwQlGEXs" version="14.4.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-02T02:56:00.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="6Si2sifwkcya6eQuYQgE" version="14.4.3" type="github" pages="6">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="2079" dy="3043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="1679" dy="1259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2479" dy="1259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
@@ -895,10 +895,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="At-z8mnW7qdWp5F7dJBA-45" value="是" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#eeeeee;strokeColor=#B3B3B3;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1" source="xDcMaMkhiMwbG7-Vdo6f-4" target="At-z8mnW7qdWp5F7dJBA-26">
-          <mxGeometry x="-0.4814" y="-6" relative="1" as="geometry">
+          <mxGeometry x="-0.5052" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="106" y="699" />
-              <mxPoint x="289" y="699" />
+              <mxPoint x="106" y="715" />
+              <mxPoint x="289" y="715" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1032,6 +1032,9 @@
         </mxCell>
         <mxCell id="QZqIXBl7zP9bRritWz_l-2" value="&lt;span style=&quot;font-size: 13.3333px&quot;&gt;获得用户身份、二维码id、二维码有效期、是否绑卡&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#FFFF33;position2=0.25;align=left;" vertex="1" parent="At-z8mnW7qdWp5F7dJBA-51">
           <mxGeometry x="91" width="120" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="At-z8mnW7qdWp5F7dJBA-52" value="终端在线下发名单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;align=center;strokeColor=#36393d;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
+          <mxGeometry x="-846" y="238" width="712" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
