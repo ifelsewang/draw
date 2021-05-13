@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T05:30:40.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="7j05Iw2xE-oHygXw6flr" version="14.6.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-13T06:15:29.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="TiYRkCX88odg9JGCVUrh" version="14.6.12" type="github" pages="7">
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="2779" dy="1060" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2302" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
@@ -1163,6 +1163,26 @@
       <root>
         <mxCell id="cHe1AzRbkB923RylcveX-0" />
         <mxCell id="cHe1AzRbkB923RylcveX-1" parent="cHe1AzRbkB923RylcveX-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sUWHU6XiFp33NSbZY3MD" name="第 7 页">
+    <mxGraphModel dx="760" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="9lXYe1zQTPKhomDoI94j-0" />
+        <mxCell id="9lXYe1zQTPKhomDoI94j-1" parent="9lXYe1zQTPKhomDoI94j-0" />
+        <mxCell id="9lXYe1zQTPKhomDoI94j-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="9lXYe1zQTPKhomDoI94j-1">
+          <mxGeometry x="109" y="137" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9lXYe1zQTPKhomDoI94j-4" value="B模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=26;" vertex="1" parent="9lXYe1zQTPKhomDoI94j-1">
+          <mxGeometry x="244" y="137" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9lXYe1zQTPKhomDoI94j-6" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=26;" vertex="1" parent="9lXYe1zQTPKhomDoI94j-1">
+          <mxGeometry x="433" y="137" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9lXYe1zQTPKhomDoI94j-7" value="三方充值平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=26;" vertex="1" parent="9lXYe1zQTPKhomDoI94j-1">
+          <mxGeometry x="625" y="134" width="100" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
