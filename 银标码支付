@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T06:33:45.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="04uVYdtSwCyhezvK9Dev" version="14.6.12" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-13T07:16:07.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="AD7ND8IbYmLjfKvpbf2g" version="14.6.12" type="github" pages="7">
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
     <mxGraphModel dx="2302" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1167,7 +1167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sUWHU6XiFp33NSbZY3MD" name="第 7 页">
-    <mxGraphModel dx="1102" dy="1125" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="945" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9lXYe1zQTPKhomDoI94j-0" />
         <mxCell id="9lXYe1zQTPKhomDoI94j-1" parent="9lXYe1zQTPKhomDoI94j-0" />
@@ -1228,7 +1228,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9lXYe1zQTPKhomDoI94j-16" value="扫码输入手机号" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="9lXYe1zQTPKhomDoI94j-1">
+        <mxCell id="9lXYe1zQTPKhomDoI94j-16" value="扫码输入手机号" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="9lXYe1zQTPKhomDoI94j-1" target="9lXYe1zQTPKhomDoI94j-9">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="160.92857142857144" y="-158" as="sourcePoint" />
             <mxPoint x="455" y="-158" as="targetPoint" />
@@ -1236,26 +1236,17 @@
         </mxCell>
         <mxCell id="9lXYe1zQTPKhomDoI94j-17" value="保存手机号和openid的关联关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="9lXYe1zQTPKhomDoI94j-1">
           <mxGeometry x="1" y="-66" relative="1" as="geometry">
-            <mxPoint x="456.07" y="-150" as="sourcePoint" />
+            <mxPoint x="295.07" y="-134" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="486.07" y="-150" />
-              <mxPoint x="486.07" y="-117" />
+              <mxPoint x="325.07" y="-134" />
+              <mxPoint x="325.07" y="-101" />
             </Array>
-            <mxPoint x="454.99857142857144" y="-117" as="targetPoint" />
+            <mxPoint x="293.99857142857144" y="-101" as="targetPoint" />
             <mxPoint x="-64" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9lXYe1zQTPKhomDoI94j-20" value="支付成功后方便根据手机号找到openid进行消息推送" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#B3B3B3;" vertex="1" parent="9lXYe1zQTPKhomDoI94j-1">
-          <mxGeometry x="563" y="-212" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9lXYe1zQTPKhomDoI94j-21" value="发送图片二维码" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;" edge="1" parent="9lXYe1zQTPKhomDoI94j-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="464.5" y="-200" as="sourcePoint" />
-            <mxPoint x="170.81034482758616" y="-200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="389" y="-200" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="401" y="-198" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9lXYe1zQTPKhomDoI94j-24" value="判断宿主，获取宿主用户标识" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="9lXYe1zQTPKhomDoI94j-1">
           <mxGeometry x="-1" y="-37" relative="1" as="geometry">
