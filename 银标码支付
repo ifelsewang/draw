@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T01:47:40.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="eXm6BfaRAXd3ePwCyPc1" version="14.6.13" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-05-19T01:49:24.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="G7K7wptcDRWUTjZfUjFG" version="14.6.13" type="github" pages="8">
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
     <mxGraphModel dx="1982" dy="846" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1426,7 +1426,7 @@
         <mxCell id="cQH1n6YAftyA27ZflWi2-0" value="姓名" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=left;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
           <mxGeometry x="240" y="884" width="120" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="cQH1n6YAftyA27ZflWi2-2" value="个人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
+        <mxCell id="cQH1n6YAftyA27ZflWi2-2" value="个人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
           <mxGeometry x="276" y="864" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cQH1n6YAftyA27ZflWi2-3" value="手机号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
@@ -1442,7 +1442,7 @@
           <mxGeometry x="215" y="884" width="23" height="116" as="geometry" />
         </mxCell>
         <mxCell id="cQH1n6YAftyA27ZflWi2-8" value="普票" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
-          <mxGeometry x="180" y="891" width="40" height="20" as="geometry" />
+          <mxGeometry x="181" y="932" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cQH1n6YAftyA27ZflWi2-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
           <mxGeometry x="148" y="884" width="38" height="160" as="geometry" />
@@ -1453,7 +1453,7 @@
         <mxCell id="cQH1n6YAftyA27ZflWi2-11" value="单位名称" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=left;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
           <mxGeometry x="408" y="885" width="120" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="cQH1n6YAftyA27ZflWi2-12" value="单位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
+        <mxCell id="cQH1n6YAftyA27ZflWi2-12" value="单位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
           <mxGeometry x="441" y="865" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cQH1n6YAftyA27ZflWi2-15" value="统一社会行用代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=left;" vertex="1" parent="b4liPoVjb9RUkxx2C2s1-1">
