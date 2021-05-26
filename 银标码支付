@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T07:59:50.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="266h5J8bFg8TPu1sY5jO" version="14.7.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-05-26T08:13:05.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="-C_7q_6qg4y1UROmMcj2" version="14.7.0" type="github" pages="8">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="1502" dy="3395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V_qEambyFkePCHGHqs-g" name="终端离线消费">
-    <mxGraphModel dx="1960" dy="3210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2774" dy="3650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IIGmqgG02G0fsnOqU6as-0" />
         <mxCell id="IIGmqgG02G0fsnOqU6as-1" parent="IIGmqgG02G0fsnOqU6as-0" />
@@ -669,7 +669,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="在线消费">
-    <mxGraphModel dx="2637" dy="2992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="4496" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1305,6 +1305,79 @@
         </mxCell>
         <mxCell id="zlN0M0Ohj2z4-EJKqRZj-61" value="拼装请求支付平台的参数，请求反扫消费接口" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1114.5" y="979" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-1" value="二维码平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="-3736" width="100" height="397" as="geometry" />
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="-3736" width="20" height="397" as="geometry" />
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-3" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="k4jnuTVUAteIR9qTvZGY-2" source="k4jnuTVUAteIR9qTvZGY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="19" y="64" as="sourcePoint" />
+            <mxPoint x="174.5" y="64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-4" value="1、申请付款码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="k4jnuTVUAteIR9qTvZGY-3">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-5" value="扫码系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-494" y="-3736" width="100" height="397" as="geometry" />
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-6" value="4、解析付款码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="k4jnuTVUAteIR9qTvZGY-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="132" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="132" />
+            </Array>
+            <mxPoint x="50" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-7" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" target="k4jnuTVUAteIR9qTvZGY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-617.1700000000001" y="-3655" as="sourcePoint" />
+            <mxPoint x="-790.0033333333336" y="-3655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-8" value="2、返回付款码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k4jnuTVUAteIR9qTvZGY-7">
+          <mxGeometry x="-0.1767" relative="1" as="geometry">
+            <mxPoint x="-19" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="k4jnuTVUAteIR9qTvZGY-5" target="k4jnuTVUAteIR9qTvZGY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-496" y="-3628" as="sourcePoint" />
+            <mxPoint x="-610" y="-3604" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-547" y="-3617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-10" value="3、扫描付款码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k4jnuTVUAteIR9qTvZGY-9">
+          <mxGeometry x="0.0155" y="1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-11" value="5、用户身份验证、&lt;br&gt;消费验证等" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-444" y="-3564" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-414" y="-3564" />
+            </Array>
+            <mxPoint x="-444" y="-3544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4jnuTVUAteIR9qTvZGY-12" value="6、提示消费成功，&lt;br&gt;等待记录上送" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-444" y="-3524" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-414" y="-3524" />
+              <mxPoint x="-414" y="-3504" />
+            </Array>
+            <mxPoint x="-444" y="-3504" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
