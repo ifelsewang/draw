@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T09:07:30.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="WnJ4GCs8JaV_IaZMWd3t" version="14.7.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-05-28T09:09:09.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="ZG9l3myLCIfXApZN0-fC" version="14.7.0" type="github" pages="8">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="1502" dy="3395" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -807,7 +807,7 @@
             <mxPoint x="183" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o-_-v4GyULS5IFAm2inU-27" value="用户中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
+        <mxCell id="o-_-v4GyULS5IFAm2inU-27" value="信息认证中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;" vertex="1" parent="IIGmqgG02G0fsnOqU6as-1">
           <mxGeometry x="-292" y="-4686" width="99" height="1084" as="geometry" />
         </mxCell>
         <mxCell id="o-_-v4GyULS5IFAm2inU-28" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="IIGmqgG02G0fsnOqU6as-1">
