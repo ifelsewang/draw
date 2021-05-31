@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T06:42:02.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="7d27pZyrB8-x0gW60gvz" version="14.7.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-05-31T06:52:10.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="x0AjB5tjH8_b5YJrUfDC" version="14.7.2" type="github" pages="8">
   <diagram id="yB1hHsZRmr2a1Eg36l8R" name="绑卡流程">
     <mxGraphModel dx="1502" dy="3361" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -926,12 +926,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zt8E12P2ZnfXUWHaBwW5" name="在线消费">
-    <mxGraphModel dx="2521" dy="4941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2479" dy="4677" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9t36m8HxiMZTFvSX4wv0-13" value="消费结果响应方式" style="shape=umlFrame;whiteSpace=wrap;html=1;width=230;height=20;" vertex="1" parent="1">
-          <mxGeometry x="-336" y="-3003" width="609" height="276" as="geometry" />
+        <mxCell id="9t36m8HxiMZTFvSX4wv0-13" value="消费结果响应方式" style="shape=umlFrame;whiteSpace=wrap;html=1;width=166;height=19;" vertex="1" parent="1">
+          <mxGeometry x="-336" y="-3003" width="579" height="276" as="geometry" />
         </mxCell>
         <mxCell id="k4jnuTVUAteIR9qTvZGY-58" value="消费金额超过免密限额" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=1;fontSize=10;width=139;height=22;" parent="1" vertex="1">
           <mxGeometry x="-802.5" y="-3316" width="375" height="78" as="geometry" />
@@ -949,7 +949,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9t36m8HxiMZTFvSX4wv0-17" value="[消费结果实时响应]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k4jnuTVUAteIR9qTvZGY-5">
-          <mxGeometry x="-11" y="751" width="122" height="22" as="geometry" />
+          <mxGeometry x="-11" y="754" width="122" height="22" as="geometry" />
         </mxCell>
         <mxCell id="aNa_d4kWj5LVLhnSrzGs-33" value="" style="group;container=1;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="459" y="-87" width="293" height="286" as="geometry">
@@ -1927,9 +1927,9 @@
             <mxPoint x="-16" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9t36m8HxiMZTFvSX4wv0-15" value="" style="endArrow=none;html=1;entryX=0.001;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.998;exitY=0.555;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="9t36m8HxiMZTFvSX4wv0-13">
+        <mxCell id="9t36m8HxiMZTFvSX4wv0-15" value="" style="endArrow=none;html=1;entryX=0.001;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.999;exitY=0.489;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9t36m8HxiMZTFvSX4wv0-13" target="9t36m8HxiMZTFvSX4wv0-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="271.78200000000015" y="-2867.8199999999997" as="sourcePoint" />
+            <mxPoint x="233" y="-2868" as="sourcePoint" />
             <mxPoint x="-338.4359999999999" y="-2866.44" as="targetPoint" />
           </mxGeometry>
         </mxCell>
