@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T08:41:37.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="mBy1D1i-Aff7yer00sN-" version="14.7.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-06-18T09:16:22.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="2zXiyPYxn5EZ-Febzw08" version="14.7.9" type="github" pages="10">
   <diagram id="vZAtwQNtSGj40Wo3y3OT" name="申请签约">
     <mxGraphModel dx="1505" dy="3482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
@@ -272,7 +272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ihTfJBjXyMQcxMz9t4w" name="申码">
-    <mxGraphModel dx="1066" dy="3283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
+    <mxGraphModel dx="1066" dy="3436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
         <mxCell id="QX9V2vjMbrJog1Qgk0qu-0" />
         <mxCell id="QX9V2vjMbrJog1Qgk0qu-1" parent="QX9V2vjMbrJog1Qgk0qu-0" />
@@ -393,28 +393,36 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eiUts2bSrGDQq0zypQWU" name="离线消费">
-    <mxGraphModel dx="1066" dy="1283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1279" dy="1563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
         <mxCell id="fc6RvpTL2TSgFoEnNTTk-0" />
         <mxCell id="fc6RvpTL2TSgFoEnNTTk-1" parent="fc6RvpTL2TSgFoEnNTTk-0" />
+        <mxCell id="Az0l31XRkYk1rX0annfr-11" value="定时轮询" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;sketch=0;fontSize=9;fillColor=#bac8d3;position2=0.94;strokeColor=#23445d;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+          <mxGeometry x="621" y="544" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-5" value="&lt;font color=&quot;#000000&quot;&gt;银联返回余额不足&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;width=125;height=16;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+          <mxGeometry x="738" y="569" width="226" height="83" as="geometry" />
+        </mxCell>
         <mxCell id="6sF4jPC7c822YtnlYqVD-0" value="扫码终端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
-          <mxGeometry x="379" y="378" width="100" height="438" as="geometry" />
+          <mxGeometry x="379" y="378" width="100" height="493" as="geometry" />
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-4" value="扫码系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
-          <mxGeometry x="550" y="378" width="100" height="438" as="geometry" />
-        </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-5" value="7、生成二维码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=0.53;entryY=0.811;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#F4F1DE;" edge="1" parent="6sF4jPC7c822YtnlYqVD-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="256" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="80" y="256" />
-              <mxPoint x="80" y="297" />
-            </Array>
-            <mxPoint x="53" y="297.3620000000001" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6sF4jPC7c822YtnlYqVD-4" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+          <mxGeometry x="550" y="378" width="100" height="493" as="geometry" />
         </mxCell>
         <mxCell id="6sF4jPC7c822YtnlYqVD-6" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
-          <mxGeometry x="724" y="378" width="100" height="438" as="geometry" />
+          <mxGeometry x="724" y="378" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-13" value="7、更新订单状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="6sF4jPC7c822YtnlYqVD-6">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint x="50" y="321" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="321" />
+              <mxPoint x="70" y="355" />
+              <mxPoint x="50" y="355" />
+            </Array>
+            <mxPoint x="50" y="355" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6sF4jPC7c822YtnlYqVD-7" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -422,21 +430,21 @@
             <mxPoint x="599.5" y="458" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-8" value="上送离线记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-7">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-8" value="1、上送离线记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-7">
           <mxGeometry x="-0.1848" relative="1" as="geometry">
             <mxPoint x="11.7" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6sF4jPC7c822YtnlYqVD-9" value="银联" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
-          <mxGeometry x="898" y="380" width="100" height="438" as="geometry" />
+          <mxGeometry x="898" y="380" width="100" height="493" as="geometry" />
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-10" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" target="6sF4jPC7c822YtnlYqVD-0">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-10" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="599.8299999999999" y="714" as="sourcePoint" />
-            <mxPoint x="457" y="714" as="targetPoint" />
+            <mxPoint x="599.8299999999999" y="815.31" as="sourcePoint" />
+            <mxPoint x="428.8103448275863" y="815.3099999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-11" value="8、返回二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-10">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-11" value="9、返回消费结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-10">
           <mxGeometry x="-0.1767" relative="1" as="geometry">
             <mxPoint x="-21" y="-2" as="offset" />
           </mxGeometry>
@@ -447,83 +455,81 @@
             <mxPoint x="770.9999999999995" y="478" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-15" value="4、用户签约查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-14">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-15" value="2、请求消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-14">
           <mxGeometry x="-0.1848" relative="1" as="geometry">
             <mxPoint x="11.7" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-16" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-16" value="8、返回消费结果" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="772.8299999999997" y="529" as="sourcePoint" />
-            <mxPoint x="599.9966666666669" y="529" as="targetPoint" />
+            <mxPoint x="772.9199999999996" y="771" as="sourcePoint" />
+            <mxPoint x="600.0866666666668" y="771" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-17" value="3、返回是否签约" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-16">
-          <mxGeometry x="-0.1767" relative="1" as="geometry">
-            <mxPoint x="-21" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-18" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;exitX=0.49;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" target="6sF4jPC7c822YtnlYqVD-9">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-18" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="6sF4jPC7c822YtnlYqVD-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="578.0900000000001" as="sourcePoint" />
-            <mxPoint x="774.3299999999999" y="578" as="targetPoint" />
+            <mxPoint x="778" y="512" as="sourcePoint" />
+            <mxPoint x="947.75" y="512.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-19" value="5、查询用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-18">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-19" value="3、无感支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-20" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="6sF4jPC7c822YtnlYqVD-9">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-20" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="771.8299999999999" y="596" as="sourcePoint" />
-            <mxPoint x="598.9966666666669" y="596" as="targetPoint" />
+            <mxPoint x="948.33" y="530" as="sourcePoint" />
+            <mxPoint x="774.4966666666668" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809.83" y="530" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6sF4jPC7c822YtnlYqVD-21" value="6、返回用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-20">
+        <mxCell id="6sF4jPC7c822YtnlYqVD-21" value="4、返回支付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="6sF4jPC7c822YtnlYqVD-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-1" target="16SSiQ7hHfjGoFNaNoUk-3">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-1" target="16SSiQ7hHfjGoFNaNoUk-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="16SSiQ7hHfjGoFNaNoUk-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="603" y="-415" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-3" value="扫描二维码" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-3" value="扫描二维码" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="771" y="-415" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-4" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-37" target="16SSiQ7hHfjGoFNaNoUk-22">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-4" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-37" target="16SSiQ7hHfjGoFNaNoUk-22">
           <mxGeometry x="0.1304" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-5" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-8" target="16SSiQ7hHfjGoFNaNoUk-13">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-5" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-8" target="16SSiQ7hHfjGoFNaNoUk-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-6" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#eeeeee;strokeColor=#E6E6E6;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-8" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-6" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=#F4F1DE;fontColor=#393C56;opacity=30;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-8" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="876" y="-50.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-6">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-6">
           <mxGeometry x="-0.6611" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-8" value="二维码是否过期" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-8" value="二维码是否过期" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="950" y="-90" width="108" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-28" target="16SSiQ7hHfjGoFNaNoUk-17">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-28" target="16SSiQ7hHfjGoFNaNoUk-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-9">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4F1DE;fontColor=#393C56;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-9">
           <mxGeometry x="-0.269" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#eeeeee;strokeColor=#E6E6E6;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-13" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=#F4F1DE;fontColor=#393C56;opacity=30;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-13" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="907" y="53" />
@@ -532,23 +538,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-12" value="不允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-11">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-12" value="不允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-11">
           <mxGeometry x="-0.3626" y="2" relative="1" as="geometry">
             <mxPoint x="3" y="30.21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-13" value="用户身份是&lt;br&gt;否允许消费" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-13" value="用户身份是&lt;br&gt;否允许消费" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="944" y="13" width="122" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-17" target="16SSiQ7hHfjGoFNaNoUk-26">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-17" target="16SSiQ7hHfjGoFNaNoUk-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-14">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4F1DE;fontColor=#393C56;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-14">
           <mxGeometry x="-0.3055" y="-2" relative="1" as="geometry">
             <mxPoint x="-3" y="-12.83" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-16" value="是" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#eeeeee;strokeColor=#E6E6E6;fontColor=#B3B3B3;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-17" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-16" value="是" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#393C56;labelBackgroundColor=#F4F1DE;opacity=30;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-17" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry x="-0.5052" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="653" y="-17" />
@@ -560,36 +566,36 @@
         <mxCell id="16SSiQ7hHfjGoFNaNoUk-17" value="离线消费&lt;br&gt;次数是否超限" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="592" y="13" width="122" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-22" target="16SSiQ7hHfjGoFNaNoUk-8">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-22" target="16SSiQ7hHfjGoFNaNoUk-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="819" y="292" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-18">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4F1DE;fontColor=#393C56;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-18">
           <mxGeometry x="-0.2838" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#eeeeee;strokeColor=#E6E6E6;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-22" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=#F4F1DE;fontColor=#393C56;opacity=30;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-22" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-20">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-20">
           <mxGeometry x="-0.2248" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-22" value="是否已签约" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-22" value="是否已签约" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="941" y="-210" width="126" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-23" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-26" target="16SSiQ7hHfjGoFNaNoUk-40">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-23" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-26" target="16SSiQ7hHfjGoFNaNoUk-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#eeeeee;strokeColor=#E6E6E6;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-26" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=#F4F1DE;fontColor=#393C56;opacity=30;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-26" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="794.5" y="-62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-24">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-24">
           <mxGeometry x="-0.5937" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -597,7 +603,7 @@
         <mxCell id="16SSiQ7hHfjGoFNaNoUk-26" value="用户累计未结算&lt;br&gt;金额是否超限" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="593" y="-102" width="121" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#eeeeee;strokeColor=#B3B3B3;fontColor=#E6E6E6;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-28" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#393C56;labelBackgroundColor=#F4F1DE;opacity=30;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-28" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry x="-0.6982" relative="1" as="geometry">
             <mxPoint x="835" y="-139" as="targetPoint" />
             <mxPoint as="offset" />
@@ -606,61 +612,280 @@
         <mxCell id="16SSiQ7hHfjGoFNaNoUk-28" value="交易金额是否超过单笔限额" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="774.5" y="13" width="122" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-13" target="16SSiQ7hHfjGoFNaNoUk-28">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-13" target="16SSiQ7hHfjGoFNaNoUk-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1002" y="98" as="sourcePoint" />
             <mxPoint x="819" y="612" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-30" value="允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-29">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-30" value="允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4F1DE;fontColor=#393C56;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-29">
           <mxGeometry x="-0.269" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-3" target="16SSiQ7hHfjGoFNaNoUk-44">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-3" target="16SSiQ7hHfjGoFNaNoUk-44">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="823" y="-257" as="sourcePoint" />
             <mxPoint x="772.5" y="-385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-35" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fillColor=#eeeeee;strokeColor=#E6E6E6;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-37" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-35" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=#F4F1DE;fontColor=#393C56;opacity=20;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-37" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="836" y="-284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-35">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="16SSiQ7hHfjGoFNaNoUk-35">
           <mxGeometry x="-0.6961" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-37" value="用户是否在黑名单" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-37" value="用户是否在黑名单" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="941" y="-324" width="126" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-44" target="16SSiQ7hHfjGoFNaNoUk-37">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-44" target="16SSiQ7hHfjGoFNaNoUk-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="823" y="-35" as="sourcePoint" />
             <mxPoint x="819.0000000000005" y="123.00000000000045" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-40" target="16SSiQ7hHfjGoFNaNoUk-42">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-40" target="16SSiQ7hHfjGoFNaNoUk-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-40" value="计算消费金额，生成代扣款订单" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-40" value="计算消费金额，生成代扣款订单" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="594" y="-205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-41" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-42" target="16SSiQ7hHfjGoFNaNoUk-43">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-41" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=#F4F1DE;fontColor=#393C56;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1" source="16SSiQ7hHfjGoFNaNoUk-42" target="16SSiQ7hHfjGoFNaNoUk-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="836" y="-284" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-42" value="提示支付成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-42" value="提示支付成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="594" y="-314" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="16SSiQ7hHfjGoFNaNoUk-43" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="785.5" y="-200" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="16SSiQ7hHfjGoFNaNoUk-44" value="解析二维码" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+        <mxCell id="16SSiQ7hHfjGoFNaNoUk-44" value="解析二维码" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
           <mxGeometry x="944" y="-415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-3" value="携带离线消费字段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=9;fontStyle=2;fontColor=#B3B3B3;" vertex="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+          <mxGeometry x="635" y="480" width="103" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-6" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="774.4985714285714" y="606" as="sourcePoint" />
+            <mxPoint x="948.32" y="606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-7" value="5、无感支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="Az0l31XRkYk1rX0annfr-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-8" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="fc6RvpTL2TSgFoEnNTTk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="948.3299999999999" y="623" as="sourcePoint" />
+            <mxPoint x="774.4966666666671" y="623" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809.83" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Az0l31XRkYk1rX0annfr-9" value="6、返回支付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="Az0l31XRkYk1rX0annfr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y7XbpyQ5nBKTz3kKw83g" name="在线消费">
+    <mxGraphModel dx="1279" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
+      <root>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-0" />
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-1" parent="Wm5upkJAy1GIoFFcRZLQ-0" />
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-4" value="扫码终端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="379" y="378" width="100" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-5" value="V8平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="550" y="378" width="100" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-6" value="支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="724" y="378" width="100" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-10" value="银联" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="898" y="380" width="100" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-13" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;exitX=0.49;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="603" y="758" as="sourcePoint" />
+            <mxPoint x="775.4999999999995" y="758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-14" value="2、请求消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="Wm5upkJAy1GIoFFcRZLQ-13">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="11.7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-16" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1" source="Wm5upkJAy1GIoFFcRZLQ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="778" y="512" as="sourcePoint" />
+            <mxPoint x="947.75" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-17" value="3、无感支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="Wm5upkJAy1GIoFFcRZLQ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-18" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="948.3299999999999" y="530" as="sourcePoint" />
+            <mxPoint x="774.4966666666669" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809.83" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-19" value="4、返回支付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="Wm5upkJAy1GIoFFcRZLQ-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-23" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="948.3299999999999" y="623" as="sourcePoint" />
+            <mxPoint x="774.4966666666669" y="623" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809.83" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-0" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="256" y="391.5" width="20" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm5upkJAy1GIoFFcRZLQ-7" value="展示二维码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint x="268" y="456" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="288" y="456" />
+              <mxPoint x="288" y="490" />
+              <mxPoint x="268" y="490" />
+            </Array>
+            <mxPoint x="268" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-3" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="525" as="sourcePoint" />
+            <mxPoint x="266" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-4" value="扫码二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-5" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;exitX=0.49;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="776" y="792" as="sourcePoint" />
+            <mxPoint x="948.4999999999995" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-6" value="无感支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-5">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="11.7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-7" value="解析二维码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint x="429" y="545" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="449" y="545" />
+              <mxPoint x="449" y="579" />
+              <mxPoint x="429" y="579" />
+            </Array>
+            <mxPoint x="429" y="579" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-8" value="消费验证" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint x="429" y="593.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="449" y="593.5" />
+              <mxPoint x="449" y="627.5" />
+              <mxPoint x="429" y="627.5" />
+            </Array>
+            <mxPoint x="429" y="627.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-9" value="计算消费金额" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint x="430" y="645" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="450" y="645" />
+              <mxPoint x="450" y="679" />
+              <mxPoint x="430" y="679" />
+            </Array>
+            <mxPoint x="430" y="679" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-10" value="" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;exitX=0.49;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="721" as="sourcePoint" />
+            <mxPoint x="601.4999999999995" y="721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-11" value="2、请求消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-10">
+          <mxGeometry x="-0.1848" relative="1" as="geometry">
+            <mxPoint x="11.7" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-12" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="948.8299999999999" y="810" as="sourcePoint" />
+            <mxPoint x="774.9966666666669" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810.33" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-13" value="返回消费结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-14" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775.8299999999999" y="849" as="sourcePoint" />
+            <mxPoint x="601.9966666666669" y="849" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="637.33" y="849" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-15" value="返回消费结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-16" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599.8299999999999" y="873" as="sourcePoint" />
+            <mxPoint x="425.9966666666669" y="873" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="461.33000000000004" y="873" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-17" value="返回消费结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
