@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T09:18:42.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="yXOQ-wLP1gq3NbeqM7eP" version="14.7.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-18T09:41:31.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="JU_LYNfpOLlyXfQmeTq6" version="14.7.9" type="github" pages="10">
   <diagram id="vZAtwQNtSGj40Wo3y3OT" name="申请签约">
     <mxGraphModel dx="1505" dy="3482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
@@ -34,8 +34,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-9" value="4、查询用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-8">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-14" value="/" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -45,8 +45,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-15" value="7、查询用户签约状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-14">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-16" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -56,8 +56,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-17" value="8、返回签约状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-16">
-          <mxGeometry x="-0.1767" relative="1" as="geometry">
-            <mxPoint x="-21" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-18" value="" style="endArrow=classic;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1" target="J7Qaco_4nd1pKNsxRdy2-2">
@@ -67,8 +67,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-19" value="11、返回签约结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-18">
-          <mxGeometry x="-0.1767" relative="1" as="geometry">
-            <mxPoint x="-34" y="-1" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-22" value="银联" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -81,8 +81,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-24" value="5、返回用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-23">
-          <mxGeometry x="-0.1767" relative="1" as="geometry">
-            <mxPoint x="-21" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-33" value="/" style="endArrow=classic;html=1;fontSize=10;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -95,8 +95,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-34" value="9、申请签约" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-33">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-35" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -106,8 +106,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-36" value="10、返回签约结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-35">
-          <mxGeometry x="-0.1767" relative="1" as="geometry">
-            <mxPoint x="-21" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-37" value="" style="endArrow=classic;html=1;fontSize=10;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -139,8 +139,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-42" value="6、申请签约" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="J7Qaco_4nd1pKNsxRdy2-41">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J7Qaco_4nd1pKNsxRdy2-43" value="" style="endArrow=classic;html=1;fontSize=10;fillColor=#F2CC8F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
@@ -700,7 +700,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y7XbpyQ5nBKTz3kKw83g" name="在线消费">
-    <mxGraphModel dx="1279" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
+    <mxGraphModel dx="1279" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
         <mxCell id="Wm5upkJAy1GIoFFcRZLQ-0" />
         <mxCell id="Wm5upkJAy1GIoFFcRZLQ-1" parent="Wm5upkJAy1GIoFFcRZLQ-0" />
