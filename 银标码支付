@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T09:44:02.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="NaRMwGScwQSCsE1-sOu6" version="14.7.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-18T09:49:24.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Fu7xoi-JTB0-wAAzWeTg" version="14.7.9" type="github" pages="10">
   <diagram id="vZAtwQNtSGj40Wo3y3OT" name="申请签约">
     <mxGraphModel dx="1505" dy="3482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
@@ -723,8 +723,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Wm5upkJAy1GIoFFcRZLQ-14" value="7、请求消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="Wm5upkJAy1GIoFFcRZLQ-13">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1W_Xcx_wvtjwvxWZD084-0" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
@@ -748,7 +748,7 @@
             <mxPoint x="266" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1W_Xcx_wvtjwvxWZD084-4" value="2、扫码二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-3">
+        <mxCell id="1W_Xcx_wvtjwvxWZD084-4" value="2、扫描二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -760,8 +760,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1W_Xcx_wvtjwvxWZD084-6" value="8、无感支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-5">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1W_Xcx_wvtjwvxWZD084-7" value="3、解析二维码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
@@ -807,8 +807,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1W_Xcx_wvtjwvxWZD084-11" value="6、请求消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" connectable="0" parent="1W_Xcx_wvtjwvxWZD084-10">
-          <mxGeometry x="-0.1848" relative="1" as="geometry">
-            <mxPoint x="11.7" y="-2" as="offset" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1W_Xcx_wvtjwvxWZD084-12" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" edge="1" parent="Wm5upkJAy1GIoFFcRZLQ-1">
