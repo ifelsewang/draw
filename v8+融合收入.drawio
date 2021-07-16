@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T09:01:23.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="FFDvtpF48cxFvl49W-Ez" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T09:01:55.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="zt087u9ieR53tPErrBk_" version="14.8.5" type="github">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
-    <mxGraphModel dx="1282" dy="443" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1131" dy="367" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,13 +86,13 @@
           <mxGeometry x="237.4729241877256" width="109.6028880866426" height="28" as="geometry" />
         </mxCell>
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-38" value="人脸" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1ZKWYTTWzYiuFIbl6tK7-93">
-          <mxGeometry x="355.2960288808664" width="109.6028880866426" height="28" as="geometry" />
+          <mxGeometry x="357.1260288808664" width="109.6028880866426" height="28" as="geometry" />
         </mxCell>
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-42" value="手机" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1ZKWYTTWzYiuFIbl6tK7-93">
           <mxGeometry x="159.8375451263538" y="39" width="146.13718411552344" height="28" as="geometry" />
         </mxCell>
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-43" value="扫码终端" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1ZKWYTTWzYiuFIbl6tK7-93">
-          <mxGeometry x="318.7617328519855" y="39" width="146.13718411552344" height="28" as="geometry" />
+          <mxGeometry x="319.67173285198555" y="39" width="146.13718411552344" height="28" as="geometry" />
         </mxCell>
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-44" value="融合收入平台网关" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1ZKWYTTWzYiuFIbl6tK7-93">
           <mxGeometry y="79" width="228.33935018050542" height="28.9" as="geometry" />
