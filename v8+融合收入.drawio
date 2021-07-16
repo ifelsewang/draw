@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T08:50:40.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="zIq-0YfBCU-rX40DMC5G" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T08:51:00.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="svNnNCidiRN033xr7Co-" version="14.8.5" type="github">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
-    <mxGraphModel dx="1009" dy="306" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1131" dy="367" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,7 +142,7 @@
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-73" value="名单管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-259" y="775" width="102" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-74" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;dashed=1;strokeColor=#B3B3B3;opacity=50;" vertex="1" parent="1">
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-74" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;dashed=1;opacity=50;strokeColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="-191" y="745" width="154" height="49" as="geometry" />
         </mxCell>
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-76" value="商户管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=0;jiggle=2;" vertex="1" parent="1">
