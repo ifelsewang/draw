@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:59:13.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="V45Y_8NoWSO4phFXzcGp" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T08:09:26.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="HWwzaHEl_B4Z3e1nhkg2" version="14.8.5" type="github">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
     <mxGraphModel dx="1466" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
@@ -82,11 +82,41 @@
         <mxCell id="1ZKWYTTWzYiuFIbl6tK7-38" value="人脸" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="15" y="597" width="120" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-42" value="PC" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-42" value="手机" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-199" y="636" width="160" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-43" value="PC" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-43" value="扫码终端" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-25" y="636" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-44" value="融合收入平台网关" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-374" y="676" width="250" height="28.9" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-46" value="V8网关" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-114" y="676" width="250" height="28.9" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-47" value="缴费" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-374" y="717" width="250" height="28.9" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-48" value="消费" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-114" y="717" width="250" height="28.9" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-49" value="融合收入平台" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-374" y="759" width="510" height="28.9" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-51" value="支付平台" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="801" width="510" height="28.9" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-52" value="微信平台" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-373.5" y="843" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-53" value="支付宝平台" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-243.5" y="843" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-54" value="云闪付" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-113.5" y="843" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="1ZKWYTTWzYiuFIbl6tK7-55" value="其他银行" style="rounded=0;whiteSpace=wrap;html=1;comic=0;jiggle=2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="15.5" y="843" width="120" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
