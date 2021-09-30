@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T01:44:27.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="zDjCRKLzptnYsjPJ0ilC" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T02:12:37.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="MhPdOVKCHeO_2lRLVGG0" version="15.3.3" type="github">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
-    <mxGraphModel dx="1836" dy="114" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1149" dy="-227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,10 +295,10 @@
         <mxCell id="xW_fUPtoplTezoDZ2_0h-4" value="V8开放平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="536" y="1809" width="100" height="217" as="geometry" />
         </mxCell>
-        <mxCell id="xW_fUPtoplTezoDZ2_0h-5" value="手动触发拉取数据" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1" target="xW_fUPtoplTezoDZ2_0h-2">
-          <mxGeometry x="195" y="1847" width="60" as="geometry">
-            <mxPoint x="417" y="1945" as="sourcePoint" />
-            <mxPoint x="586.5" y="1945" as="targetPoint" />
+        <mxCell id="xW_fUPtoplTezoDZ2_0h-5" value="手动触发拉取数据" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="195" y="1876" width="60" as="geometry">
+            <mxPoint x="414.5" y="1946.5" as="sourcePoint" />
+            <mxPoint x="244.26744186046494" y="1946.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xW_fUPtoplTezoDZ2_0h-11" value="接口同步" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1" source="xW_fUPtoplTezoDZ2_0h-3" target="xW_fUPtoplTezoDZ2_0h-4">
