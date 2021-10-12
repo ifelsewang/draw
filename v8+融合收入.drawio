@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T06:33:33.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="sVYOifwf6XXlyCkOXDmf" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T06:55:59.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="dihEjEUyEXk5dSkQqZIr" version="15.4.1" type="github">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
-    <mxGraphModel dx="1902" dy="159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1560" dy="-14" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,6 +343,29 @@
             <Array as="points">
               <mxPoint x="404" y="2452" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJQjmyDLI8KBlpkuEprF-7" value="融合收入平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2522" width="100" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="HJQjmyDLI8KBlpkuEprF-8" value="创建商户" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontSize=11;fontColor=#000000;strokeColor=#CCCCCC;" edge="1" parent="HJQjmyDLI8KBlpkuEprF-7" target="HJQjmyDLI8KBlpkuEprF-7">
+          <mxGeometry x="-0.7263" y="-19" relative="1" as="geometry">
+            <mxPoint x="50" y="63" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="101" y="63" />
+              <mxPoint x="101" y="101" />
+            </Array>
+            <mxPoint x="55" y="83" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJQjmyDLI8KBlpkuEprF-10" value="V8开放平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="271" y="2522" width="100" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="HJQjmyDLI8KBlpkuEprF-11" value="接口同步" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry x="-52.08000000000001" y="2650" width="60" as="geometry">
+            <mxPoint x="142.00034482758628" y="2670" as="sourcePoint" />
+            <mxPoint x="322.69" y="2670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
