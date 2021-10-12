@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T07:20:06.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="f5YoD3ZqeJ9oXxl-bpKZ" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T07:20:49.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="femo3BOButLfckvobohy" version="15.4.1" type="github">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
     <mxGraphModel dx="1325" dy="-134" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
@@ -403,8 +403,14 @@
         <mxCell id="HJQjmyDLI8KBlpkuEprF-20" value="定时区间内交易流水是否获取完毕" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-447" y="2714" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="HJQjmyDLI8KBlpkuEprF-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJQjmyDLI8KBlpkuEprF-24" target="HJQjmyDLI8KBlpkuEprF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HJQjmyDLI8KBlpkuEprF-24" value="将临时表交易流水中的科目映射为融合收入平台的科目" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-467" y="2884" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJQjmyDLI8KBlpkuEprF-26" value="将临时表中的数据同步到融合收入平台订单表中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-467" y="3024" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
