@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T04:21:18.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="WlAxGImZo1bYLi8QIHCe" version="15.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-31T09:05:47.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="JTwsQ6iOD-NFzmwJ8_hg" version="15.7.4" type="github" pages="2">
   <diagram id="B5he_3Ifh79qYKnACxuL" name="第 1 页">
     <mxGraphModel dx="1902" dy="193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
@@ -583,10 +583,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xNXCn09Nli5dNCfJVL-E" name="第 2 页">
-    <mxGraphModel dx="1318" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2167" dy="918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="Mz8N8fC1UKtdRHELnklZ-0" />
         <mxCell id="Mz8N8fC1UKtdRHELnklZ-1" parent="Mz8N8fC1UKtdRHELnklZ-0" />
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-57" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="124" y="1322" width="266" height="683" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-54" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="571" y="1326" width="279" height="679" as="geometry" />
+        </mxCell>
         <mxCell id="Mz8N8fC1UKtdRHELnklZ-5" value="" style="group;horizontal=0;" vertex="1" connectable="0" parent="Mz8N8fC1UKtdRHELnklZ-1">
           <mxGeometry x="-75" y="387" width="180" height="56" as="geometry" />
         </mxCell>
@@ -664,6 +670,70 @@
         </mxCell>
         <mxCell id="Mz8N8fC1UKtdRHELnklZ-35" value="S1.2.0300" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
           <mxGeometry x="229" y="688" width="65" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-36" target="Mz8N8fC1UKtdRHELnklZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-36" value="照片采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="641" y="1376" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-37" target="Mz8N8fC1UKtdRHELnklZ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-37" value="针对照片生成每一种算法的人脸特征" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="641" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-39" target="Mz8N8fC1UKtdRHELnklZ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-39" value="算法、人脸特征、人员信息关联" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="641" y="1544" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-41" target="Mz8N8fC1UKtdRHELnklZ-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="457" y="1667" />
+              <mxPoint x="457" y="1525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-41" value="人员授权" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="641" y="1637" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-43" target="Mz8N8fC1UKtdRHELnklZ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-43" value="下发算法、人脸特征和具有权限的人员信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="174" y="1495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-45" target="Mz8N8fC1UKtdRHELnklZ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-45" value="人脸识别" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="174" y="1635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-47" target="Mz8N8fC1UKtdRHELnklZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-47" value="特征比对" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="174" y="1775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mz8N8fC1UKtdRHELnklZ-1" source="Mz8N8fC1UKtdRHELnklZ-57" target="Mz8N8fC1UKtdRHELnklZ-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649" y="1957" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="641" y="1957" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-49" value="权限校验" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="174" y="1893" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-52" value="动态更新算法、人脸特征和人员信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="644" y="1927" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz8N8fC1UKtdRHELnklZ-56" value="多应用人脸算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=23;" vertex="1" parent="Mz8N8fC1UKtdRHELnklZ-1">
+          <mxGeometry x="617" y="1326" width="174" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
