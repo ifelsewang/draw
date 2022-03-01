@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T02:27:56.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cXMwInET-r-u-D3ta4wR" version="16.2.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:24:05.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="9JL6V3RrTu8iNhKd54fP" version="16.2.2" type="github" pages="10">
   <diagram id="vZAtwQNtSGj40Wo3y3OT" name="申请签约">
     <mxGraphModel dx="1767" dy="3678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="1">
       <root>
@@ -255,6 +255,9 @@
         </mxCell>
         <mxCell id="HMQKMfMcUDC1tMY2wyM6-67" value="当前版本的项目经理梳理该版本的迭代内容、排期" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
           <mxGeometry x="223" y="-1687" width="397" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQKMfMcUDC1tMY2wyM6-71" value="v8" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="J7Qaco_4nd1pKNsxRdy2-1">
+          <mxGeometry x="561" y="-1287" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
